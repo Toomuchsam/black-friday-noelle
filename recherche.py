@@ -17,18 +17,21 @@ def classify(o):
         if prices and all(float(a)+float(b or 0)/100>400 for a,b in prices):
             bad.append('Prix mentionnés supérieurs au budget')
     if not any(re.search(r'\b'+re.escape(x)+r'\b',o['name'],re.I) for x in RULES['brands']): bad.append('Marque non retenue')
-    if not any(x in o.get('seller','').lower() for x in RULES['sellers']): bad.append('Vendeur non retenu')
+    if not any(x in o.get('seller','').lower() for x in RULES['sellers']): missing.append('Fiabilité vendeur à vérifier')
     codes=set(re.findall(r'\b(?:I[3579][ -]?)?(\d{4,5}(?:G[147]|HS|HX|[UHY])|\d{3}[UH])\b',t.upper()))
-    if codes and not codes.issubset(RULES['cpu']): bad.append('CPU non retenu')
+    if codes and not codes.intersection(RULES['cpu']): missing.append('Performances CPU à confirmer')
     if len(codes)!=1: missing.append('CPU exact')
     sizes=[float(x.replace(',','.')) for x in re.findall(r'\b(1[0-9](?:[.,]\d+)?)\s*(?:pouces?|inches?|["″])',t,re.I)]
     if o.get('size'): sizes.append(o['size'])
-    if any(x<13 or x>=15 for x in sizes): bad.append('Écran hors critères')
+    if sizes and all(x<13 or x>=15 for x in sizes): bad.append('Écran hors critères')
+    elif any(x<13 or x>=15 for x in sizes): missing.append('Taille écran ambiguë')
     if not sizes: missing.append('Taille écran')
     if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr)',t,re.I): bad.append('RAM insuffisante')
     if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',t,re.I): missing.append('RAM 16 Go')
     if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',t,re.I): missing.append('SSD 512 Go')
     if re.search(r'pour pièces|hors service|écran cassé|sans chargeur',t,re.I): bad.append('État incompatible')
+    if not re.search(r'comme neuf|excellent état|état parfait|\bneuf\b',t,re.I): missing.append('État exact à vérifier')
+    missing.append('Livraison et stock à confirmer')
     for pattern,label in [(r'windows\s*11','Windows 11'),(r'\bips\b','IPS'),(r'azerty','AZERTY'),(r'\busb\b','USB')]:
         if not re.search(pattern,t,re.I): missing.append(label)
     return ('archive' if bad else 'piste' if not price else 'prometteuse' if missing else 'conforme'),bad+missing
@@ -45,13 +48,16 @@ def main():
     queries=["Lenovo ThinkPad T14 Gen 2 Ryzen 5650U 16 Go 512 Go reconditionné 400 euros","HP EliteBook 845 G8 Ryzen 5650U 16 Go 512 Go reconditionné","Dell Latitude 5420 5430 i5 16 Go 512 Go reconditionné 400 euros","HP EliteBook 840 G8 16 Go 512 Go AZERTY","Lenovo ThinkPad X13 Gen 2 16 Go 512 Go reconditionné","HP EliteBook 830 G8 16 Go 512 Go","Dell Latitude 5320 5330 16 Go 512 Go","Lenovo IdeaPad Slim 3 14 Ryzen 5 16 Go 512 Go promotion","Acer Aspire 14 Asus Vivobook 14 Ryzen 5 16 Go 512 Go promotion","site:backmarket.fr ThinkPad EliteBook Latitude 16 Go 512 Go","site:trade-discount.com 14 pouces 16 Go 512 Go","site:afbshop.fr 14 pouces 16 Go 512 Go","site:smaaart.fr EliteBook ThinkPad 16 Go 512 Go","site:refurbed.fr ThinkPad EliteBook 16 Go 512 Go","site:laptopservice.fr Latitude EliteBook 16 Go 512 Go","site:boulanger.com PC portable 14 Ryzen 5 16 Go 512 Go"]
     by_id={(o['name'],o.get('seller','')):o for o in old.get('offers',[])}
     logs=[]; errors=0; success=0
-    for _ in range(2):
+    daily_budget=8
+    if old.get('last_attempt','')[:10]==now.date().isoformat(): daily_budget=2
+    for _ in range(min(daily_budget, max(0, limit-count))):
         if count>=limit: break
-        engine='google_shopping' if count%2==0 else 'google'
-        q=queries[(count//2 + (8 if engine=='google' else 0))%len(queries)]
+        engine='google_shopping' if count%3==0 else 'google'
+        q=queries[(count//3*2 + count%3)%len(queries)]
         count+=1
         print(engine,q)
         params=dict(engine=engine,q=q,google_domain='google.fr',gl='fr',hl='fr',api_key=key)
+        if engine=='google': params['num']=30
         try:
             with urllib.request.urlopen('https://serpapi.com/search.json?'+urllib.parse.urlencode(params),timeout=45) as response:
                 data=json.load(response)
@@ -67,7 +73,7 @@ def main():
             title=item.get('title','')
             url=item.get('link') or item.get('product_link') or ''
             if not title or not url.startswith('https://'): continue
-            t=title+' '+str(item.get('snippet',''))
+            t=title+' '+str(item.get('snippet',''))+' '+str(item.get('rich_snippet',{}))+' '+str(item.get('extensions',[]))
             price=item.get('extracted_price',0)
             if not isinstance(price,(int,float)) or price<0: price=0
             if item.get('price') and '€' not in str(item['price']): price=0
@@ -92,7 +98,7 @@ def main():
             o.update(category=category,reasons=reasons)
             logs.append({'name':title,'category':category,'reasons':reasons})
             print(category,title,'; '.join(reasons))
-            if category!='archive' or identity in by_id: by_id[identity]=o
+            by_id[identity]=o
     for o in by_id.values():
         category,reasons=classify(o)
         try:
