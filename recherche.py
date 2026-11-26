@@ -40,13 +40,13 @@ def main():
     usage=old.get('usage',{})
     count=usage.get('count',0) if usage.get('month')==month else 0
     limit=int(os.getenv('SERPAPI_MONTHLY_LIMIT','240'))
-    queries=['ThinkPad T14 X13 Ryzen 5650U 16 Go 512 Go reconditionné','EliteBook 845 840 G8 G9 16 Go 512 Go reconditionné','Latitude 5420 5430 5440 16 Go 512 Go reconditionné','PC portable 14 pouces Ryzen 5 7430U 7530U 16 Go 512 Go neuf','PC portable 13 14 pouces i5 1235U 1335U 16 Go 512 Go neuf','site:backmarket.fr ThinkPad EliteBook Latitude 16 Go 512 Go','site:trade-discount.com PC portable 16 Go 512 Go','site:afbshop.fr PC portable 16 Go 512 Go']
+    queries=["Lenovo ThinkPad T14 Gen 2 Ryzen 5650U 16 Go 512 Go reconditionné 400 euros","HP EliteBook 845 G8 Ryzen 5650U 16 Go 512 Go reconditionné","Dell Latitude 5420 5430 i5 16 Go 512 Go reconditionné 400 euros","HP EliteBook 840 G8 16 Go 512 Go AZERTY","Lenovo ThinkPad X13 Gen 2 16 Go 512 Go reconditionné","HP EliteBook 830 G8 16 Go 512 Go","Dell Latitude 5320 5330 16 Go 512 Go","Lenovo IdeaPad Slim 3 14 Ryzen 5 16 Go 512 Go promotion","Acer Aspire 14 Asus Vivobook 14 Ryzen 5 16 Go 512 Go promotion","site:backmarket.fr ThinkPad EliteBook Latitude 16 Go 512 Go","site:trade-discount.com 14 pouces 16 Go 512 Go","site:afbshop.fr 14 pouces 16 Go 512 Go","site:smaaart.fr EliteBook ThinkPad 16 Go 512 Go","site:refurbed.fr ThinkPad EliteBook 16 Go 512 Go","site:laptopservice.fr Latitude EliteBook 16 Go 512 Go","site:boulanger.com PC portable 14 Ryzen 5 16 Go 512 Go"]
     by_id={(o['name'],o.get('seller','')):o for o in old.get('offers',[])}
     logs=[]; errors=0; success=0
     for _ in range(2):
         if count>=limit: break
         engine='google_shopping' if count%2==0 else 'google'
-        q=queries[(count//2)%len(queries)]
+        q=queries[(count//2 + (8 if engine=='google' else 0))%len(queries)]
         count+=1
         print(engine,q)
         params=dict(engine=engine,q=q,google_domain='google.fr',gl='fr',hl='fr',api_key=key)
@@ -69,7 +69,15 @@ def main():
             price=item.get('extracted_price',0)
             if not isinstance(price,(int,float)) or price<0: price=0
             if item.get('price') and '€' not in str(item['price']): price=0
+            if engine=='google' and not price:
+                matches=re.findall(r'(?<![\d.,])(\d{2,4})(?:[,.](\d{2}))?\s*€(?:\s*(\d{2})(?!\d))?',t)
+                values={int(a)+int(b or c or '0')/100 for a,b,c in matches}
+                if len(values)==1 and not re.search(r'à partir de|dès |par mois|mensualité',t,re.I):
+                    price=values.pop()
+            if engine=='google' and re.search(r'/categorie/|/categories/|/search[/?]|/recherche[/?]',url,re.I): continue
             seller=item.get('source') or urlsplit(url).hostname or ''
+            if not any(x in seller.lower() for x in RULES['sellers']):
+                seller=next((x for x in RULES['sellers'] if x.replace(' ','').replace('-','') in (urlsplit(url).hostname or '').replace('-','')),seller)
             size=re.search(r'\b(1[0-9](?:[.,]\d+)?)\s*(?:pouces?|inches?|["″])',t,re.I)
             identity=(title,seller)
             previous=by_id.get(identity,{})
