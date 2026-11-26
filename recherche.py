@@ -7,6 +7,7 @@ from pathlib import Path
 def classify(o):
     t=o['name']+' '+o.get('specs','')
     bad=[]; missing=[]
+    if re.search(r'\b(?:qwerty|qwertz)\b|clavier\s+(?:anglais|allemand|espagnol|italien)',t,re.I): bad.append('Clavier non AZERTY')
     price=o.get('price',0)
     if price>400: bad.append('Hors budget')
     if not price:
