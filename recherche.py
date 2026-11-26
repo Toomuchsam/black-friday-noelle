@@ -38,6 +38,36 @@ def classify(o):
         if not re.search(pattern,t,re.I): missing.append(label)
     return ('archive' if bad else 'piste' if not price else 'prometteuse' if missing else 'conforme'),bad+missing
 
+
+def product_price(url):
+    # Only public merchant product pages; no login or bypass.
+    host=(urlsplit(url).hostname or '').lower()
+    allowed=('fnac.com','darty.com','laptopservice.fr','trade-discount.com','afbshop.fr','backmarket.fr','boulanger.com','cdiscount.com','smaaart.fr','bureau-vallee.fr','topbiz.fr','materiel.net','ldlc.com')
+    if not any(host==d or host.endswith('.'+d) for d in allowed): return 0
+    try:
+        req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; NoelleTech/1.0)'})
+        with urllib.request.urlopen(req,timeout=8) as response:
+            html=response.read(1500000).decode('utf-8','replace')
+        prices=set()
+        def visit(obj):
+            if isinstance(obj,list):
+                for x in obj: visit(x)
+            elif isinstance(obj,dict):
+                if obj.get('@type')=='Offer' and obj.get('priceCurrency')=='EUR':
+                    if 'OutOfStock' not in str(obj.get('availability','')):
+                        try:
+                            p=float(str(obj.get('price','')).replace(',','.'))
+                            if 0<p<10000: prices.add(p)
+                        except ValueError: pass
+                for k,v in obj.items():
+                    if isinstance(v,(dict,list)): visit(v)
+        for block in re.findall(r'<script[^>]*type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',html,re.I|re.S):
+            try: visit(json.loads(block))
+            except (ValueError,TypeError): pass
+        return prices.pop() if len(prices)==1 else 0
+    except Exception:
+        return 0
+
 def main():
     key=os.environ['SERPAPI_KEY']
     now=datetime.datetime.now(datetime.timezone.utc)
@@ -52,6 +82,7 @@ def main():
     by_id={(o['name'],o.get('seller','')):o for o in old.get('offers',[])}
     rejected_urls={o.get('url') for o in old.get('offers',[]) if o.get('manual_rejection') and o.get('url')}
     logs=[]; errors=0; success=0
+    page_checks=0
     daily_budget=2
     # Six cycles par jour, plafond mensuel conservé.
     for _ in range(min(daily_budget, max(0, limit-count))):
@@ -87,6 +118,10 @@ def main():
                 if len(values)==1 and not re.search(r'à partir de|dès |par mois|mensualité',t,re.I):
                     price=values.pop()
             if engine=='google' and re.search(r'/categorie/|/categories/|/search[/?]|/recherche[/?]',url,re.I): continue
+            if re.search(r'/blog/|/support/|/manuals/|/liste/|/ck/|/test[s-]?/|\bavis\s*:',url+' '+title,re.I): continue
+            if not price and page_checks<12 and re.search(r'\b(?:16|24|32)\s*(?:go|gb)\b',t,re.I) and re.search(r'512\s*(?:go|gb)|[12]\s*(?:to|tb)',t,re.I):
+                page_checks+=1
+                price=product_price(url)
             seller=item.get('source') or urlsplit(url).hostname or ''
             if not any(x in seller.lower() for x in RULES['sellers']):
                 seller=next((x for x in RULES['sellers'] if x.replace(' ','').replace('-','') in (urlsplit(url).hostname or '').replace('-','')),seller)
@@ -104,6 +139,12 @@ def main():
             print(category,title,'; '.join(reasons))
             by_id[identity]=o
     for o in by_id.values():
+        if not o.get('price') and page_checks<12 and not o.get('manual_rejection') and o.get('category')=='piste':
+            page_checks+=1
+            p=product_price(o.get('url',''))
+            if p:
+                o['price']=p
+                o.setdefault('history',[]).append({'date':now.isoformat(),'price':p})
         category,reasons=classify(o)
         try:
             if now-datetime.datetime.fromisoformat(o['seen'])>datetime.timedelta(days=3):
