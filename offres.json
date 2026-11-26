@@ -5,7 +5,7 @@
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
       "seller": "Cdiscount",
       "price": 424.99,
-      "size": 16.0,
+      "size": 16,
       "condition": "À confirmer",
       "specs": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR ",
       "verified": false,
@@ -61,7 +61,7 @@
     {
       "name": "Lenovo Ordinateur portable Lenovo Thinkpad 512Go Ssd Intel core I5 10210U 1.60Ghz 16Go (16384Mo)",
       "seller": "Cdiscount",
-      "price": 384.0,
+      "price": 384,
       "size": 0,
       "condition": "À confirmer",
       "specs": "Lenovo Ordinateur portable Lenovo Thinkpad 512Go Ssd Intel core I5 10210U 1.60Ghz 16Go (16384Mo) ",
@@ -71,7 +71,7 @@
       "history": [
         {
           "date": "2026-11-26T18:05+00:00",
-          "price": 384.0
+          "price": 384
         }
       ],
       "seen": "2026-11-26T18:05:34.249817+00:00",
@@ -89,7 +89,7 @@
       "name": "PC Portable-16\" FHD-Intel Core i7-8750H-intel UHD Graphics 630-16 Go RAM-512 Go SSD- Windows 11 Pro- Ordinateur performant",
       "seller": "Cdiscount",
       "price": 424.49,
-      "size": 16.0,
+      "size": 16,
       "condition": "À confirmer",
       "specs": "PC Portable-16\" FHD-Intel Core i7-8750H-intel UHD Graphics 630-16 Go RAM-512 Go SSD- Windows 11 Pro- Ordinateur performant ",
       "verified": false,
@@ -119,7 +119,7 @@
       "name": "Pc Portable Ultra Fin 16\" Intel Core i5 8210Y 16Go Ram 512Go Ssd Windows 11 Pro Wifi 5 Rj45 Ordinateur Gris AIMACHINEU",
       "seller": "Cdiscount",
       "price": 354.99,
-      "size": 16.0,
+      "size": 16,
       "condition": "À confirmer",
       "specs": "Pc Portable Ultra Fin 16\" Intel Core i5 8210Y 16Go Ram 512Go Ssd Windows 11 Pro Wifi 5 Rj45 Ordinateur Gris AIMACHINEU ",
       "verified": false,
@@ -173,7 +173,7 @@
     {
       "name": "Dell Latitude 5440 (i7-3) - PC portable reconditionné",
       "seller": "LDLC",
-      "price": 0,
+      "price": 849,
       "size": 0,
       "condition": "Reconditionné",
       "specs": "Dell Latitude 5440 (i7-3) - PC portable reconditionné Dell Latitude 5440 (i7-3) · Reconditionné. IPS/FHD Intel Core i7-1365U - SSD 512 Go NVMe 16 Go - Windows 11 Pro. Donner votre avis. Exclu Web. 849€00. Très bon ...",
@@ -185,12 +185,9 @@
       "image": "https://serpapi.com/searches/6b0899e22c2f13788783bc02/images/ZrlqgFYDLtAkpvaa_7LZA6WNEnbKdeBS6W8SeW9yXdM.webp",
       "origin": "google",
       "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
-      "category": "piste",
+      "category": "archive",
       "reasons": [
-        "Prix inconnu",
-        "Taille écran",
-        "AZERTY",
-        "USB"
+        "Prix annoncé 849 € : hors budget"
       ]
     },
     {
