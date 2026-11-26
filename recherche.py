@@ -16,32 +16,50 @@ queries = ['Lenovo ThinkPad T14 X13 Ryzen 5650U 16 Go SSD 512 Go reconditionné 
 q = queries[count % len(queries)]
 old['usage'] = {'month': month, 'count': count+1}
 path.write_text(json.dumps(old, ensure_ascii=False, indent=2), encoding='utf-8')
-params = dict(engine='google_shopping', q=q, google_domain='google.fr', gl='fr', hl='fr', api_key=key)
+engine = 'google' if count % 2 else 'google_shopping'
+print('Moteur:', engine, 'Requête:', q)
+params = dict(engine=engine, q=q, google_domain='google.fr', gl='fr', hl='fr', api_key=key)
 try:
     with urllib.request.urlopen('https://serpapi.com/search.json?'+urllib.parse.urlencode(params), timeout=45) as r:
         data = json.load(r)
 except Exception:
-    print('Requête API échouée, anciennes offres conservées'); raise SystemExit(0)
-if data.get('error') or 'shopping_results' not in data:
-    print('Résultats indisponibles, anciennes offres conservées'); raise SystemExit(0)
+    print('Requête API échouée, anciennes offres conservées'); raise SystemExit(1)
+if data.get('error'):
+    print('Erreur API, anciennes offres conservées'); raise SystemExit(1)
 by_id = {(o['name'],o.get('seller','')):o for o in old['offers']}
-for item in data['shopping_results']:
+items = data.get('shopping_results', []) if engine == 'google_shopping' else data.get('organic_results', [])
+print('Résultats bruts:', len(items))
+rejections = {}
+def reject(reason):
+    rejections[reason] = rejections.get(reason, 0) + 1
+    print('Rejet:', reason, '|', title[:180])
+for item in items:
     title = item.get('title','')
     text = title + ' ' + str(item.get('snippet',''))
     price = item.get('extracted_price')
+    if engine == 'google' and price is None:
+        prices = re.findall(r'(?<!\d)(\d{2,3}(?:[,.]\d{2})?)\s*€', text)
+        if len(set(prices)) == 1: price = float(prices[0].replace(',', '.'))
     url = item.get('link') or item.get('product_link')
     if item.get('price') and '€' not in str(item['price']): continue
-    if not isinstance(price,(int,float)) or not 0 < price < 450 or not url or not url.startswith('https://'): continue
-    if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',text,re.I): continue
+    if not isinstance(price,(int,float)) or not 0 < price < 450 or not url or not url.startswith('https://'):
+        reject('Prix ou lien non admissible'); continue
+    if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',text,re.I):
+        reject('RAM non confirmée'); continue
     if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr[345])',text,re.I): continue
     if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',text,re.I): continue
     if not re.search(r'ryzen\s*[579]|(?:core\s*)?i[579]\b|core\s*(?:ultra\s*)?[579]\b',text,re.I): continue
     size = re.search(r'\b(1[3456](?:[.,][0-9])?)\s*(?:pouces|inch|["″])',text,re.I)
-    seller = item.get('source','Vendeur à confirmer')
+    seller = item.get('source') or urlsplit(url).hostname or 'Vendeur à confirmer'
+    domains = {'backmarket.fr':'Back Market','trade-discount.com':'Trade Discount','afbshop.fr':'AfB','laptopservice.fr':'LaptopService','refurbed.fr':'Refurbed'}
+    host = urlsplit(url).hostname or ''
+    for domain, label in domains.items():
+        if host == domain or host.endswith('.'+domain): seller = label
     if not any(re.search(r'\b'+re.escape(x)+r'\b', title, re.I) for x in RULES['brands']): continue
     if not any(x in seller.lower() for x in RULES['sellers']): continue
     codes = set(re.findall(r'\b(?:i[3579][ -]?)?(\d{4}(?:G[147]|[UHY]|HS|HX)|\d{3}[UH])\b',text.upper()))
-    if len(codes)!=1 or not codes.issubset(RULES['cpu']): continue
+    if codes and (len(codes)!=1 or not codes.issubset(RULES['cpu'])):
+        reject('CPU hors sélection ou ambigu'); continue
     if size and float(size.group(1).replace(',','.')) >= 16: continue
     identity = (title,seller)
     previous = by_id.get(identity,{})
@@ -56,4 +74,5 @@ cutoff = now-datetime.timedelta(days=3)
 old['offers'] = list(by_id.values())
 old['updated'] = now.isoformat(timespec='minutes')
 path.write_text(json.dumps(old,ensure_ascii=False,indent=2),encoding='utf-8')
+print('Rejets détaillés:', json.dumps(rejections, ensure_ascii=False))
 print('Pistes enregistrées :',len(old['offers']))
