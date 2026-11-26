@@ -1,1 +1,25 @@
-{"updated":"Aucun relevé","offers":[]}
+{
+  "updated": "2026-11-26T20:47:05.575Z",
+  "offers": [
+    {
+      "name": "HP EliteBook 845 G8 Ryzen 5 PRO 5650U 16 Go SSD 512 Go Windows 11",
+      "seller": "Cdiscount Seconde Vie via Dero",
+      "price": 399,
+      "size": 14,
+      "condition": "Reconditionné",
+      "specs": "Ryzen 5 PRO 5650U, 16 Go DDR4, SSD 512 Go, Windows 11",
+      "verified": false,
+      "category": "prometteuse",
+      "reasons": [
+        "Stock et prix actuels non confirmés",
+        "Livraison, grade, IPS, AZERTY et USB à vérifier"
+      ],
+      "note": "Prix indexé par Dero, relevé de source datant de deux mois ; pas une offre vérifiée.",
+      "url": "https://app.dero.fr/product/?id=5561283627210621",
+      "seen": "2026-11-26T20:47:05.575Z",
+      "first_seen": "2026-11-26T20:47:05.575Z",
+      "history": [],
+      "origin": "ChatGPT"
+    }
+  ]
+}
