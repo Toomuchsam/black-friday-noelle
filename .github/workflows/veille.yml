@@ -3,9 +3,17 @@ on:
   schedule:
     - cron: '17 */4 * * *'
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - index.html
+      - veille-chatgpt.json
+      - .github/workflows/veille.yml
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: veille-noelle
@@ -21,6 +29,7 @@ jobs:
           python-version: '3.12'
 
       - name: Rechercher les offres
+        if: github.event_name != 'push'
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
@@ -28,7 +37,7 @@ jobs:
           python recherche.py
 
       - name: Enregistrer les donnees
-        if: always()
+        if: always() && github.event_name != 'push'
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -37,3 +46,27 @@ jobs:
             git commit -m 'Actualisation de la veille'
             git push
           fi
+
+      - name: Préparer le site
+        if: always()
+        run: |
+          mkdir -p _site
+          cp index.html offres.json veille-chatgpt.json _site/
+      - uses: actions/configure-pages@v5
+        if: always()
+      - uses: actions/upload-pages-artifact@v3
+        if: always()
+        with:
+          path: _site
+
+  deploy:
+    needs: veille
+    if: always() && !cancelled()
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publier le site
+        id: deployment
+        uses: actions/deploy-pages@v4
