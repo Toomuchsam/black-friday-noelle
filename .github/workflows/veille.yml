@@ -6,6 +6,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: veille-noelle
@@ -19,6 +21,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+
+      - name: Vérifier la syntaxe Python
+        run: python -m py_compile recherche.py
+
+      - name: Vérifier la syntaxe JavaScript
+        run: |
+          python -c "from pathlib import Path; s=Path('index.html').read_text(); Path('/tmp/site.js').write_text(s.split('<script>')[1].split('</script>')[0])"
+          node --check /tmp/site.js
 
       - name: Rechercher les offres
         env:
@@ -34,3 +44,15 @@ jobs:
             git commit -m 'Actualisation de la veille'
             git push
           fi
+
+      - name: Préparer les fichiers publics
+        if: github.ref == 'refs/heads/main'
+        run: |
+          mkdir -p public
+          cp index.html offres.json veille-chatgpt.json public/
+      - uses: actions/upload-pages-artifact@v3
+        if: github.ref == 'refs/heads/main'
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4
+        if: github.ref == 'refs/heads/main'
