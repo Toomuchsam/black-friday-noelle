@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:24+00:00",
+  "updated": "2026-11-26T20:43+00:00",
   "offers": [
     {
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
@@ -17,7 +17,17 @@
           "price": 424.99
         }
       ],
-      "seen": "2026-11-26T18:05:34.249817+00:00"
+      "seen": "2026-11-26T18:05:34.249817+00:00",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "CPU non retenu",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     },
     {
       "name": "Nouvelle vente chaude 15.6 pouce 16.1 pouce I5 I7 11th 12th génération ordinateur portable 32GB RAM 512GB 1tb ROM 2.5K écran ordinateur portable",
@@ -35,7 +45,18 @@
           "price": 291.59
         }
       ],
-      "seen": "2026-11-26T18:05:34.249817+00:00"
+      "seen": "2026-11-26T18:05:34.249817+00:00",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Vendeur non retenu",
+        "Écran hors critères",
+        "CPU exact",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     },
     {
       "name": "Lenovo Ordinateur portable Lenovo Thinkpad 512Go Ssd Intel core I5 10210U 1.60Ghz 16Go (16384Mo)",
@@ -53,7 +74,16 @@
           "price": 384.0
         }
       ],
-      "seen": "2026-11-26T18:05:34.249817+00:00"
+      "seen": "2026-11-26T18:05:34.249817+00:00",
+      "category": "archive",
+      "reasons": [
+        "CPU non retenu",
+        "Taille écran",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     },
     {
       "name": "PC Portable-16\" FHD-Intel Core i7-8750H-intel UHD Graphics 630-16 Go RAM-512 Go SSD- Windows 11 Pro- Ordinateur performant",
@@ -73,7 +103,17 @@
       ],
       "seen": "2026-11-26T19:53:23.234770+00:00",
       "first_seen": "2026-11-26T19:53+00:00",
-      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgRtCKRcgEJS4j-tMICiScqs8A4iycMBSfPXZouYAMQwr3kQT_vcy6KZVgE_BjN3A2OfD2n7yIQsP61cvTQtBVe7PbPKZPHv42zVN-CR5NSjKwpNsddGROrA"
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgRtCKRcgEJS4j-tMICiScqs8A4iycMBSfPXZouYAMQwr3kQT_vcy6KZVgE_BjN3A2OfD2n7yIQsP61cvTQtBVe7PbPKZPHv42zVN-CR5NSjKwpNsddGROrA",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "CPU non retenu",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     },
     {
       "name": "Pc Portable Ultra Fin 16\" Intel Core i5 8210Y 16Go Ram 512Go Ssd Windows 11 Pro Wifi 5 Rj45 Ordinateur Gris AIMACHINEU",
@@ -93,11 +133,742 @@
       ],
       "seen": "2026-11-26T19:53:23.234770+00:00",
       "first_seen": "2026-11-26T19:53+00:00",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQUsFzm9S1W61yHp1DUIqYrH88A1k9y4x5htOvb7C3JYhPeKxKiQJB06Rjd4vDcwhVq4IL8VI1kCl1J-bGEjHIUxRnpwBKLznfPqaBvS-CJEZPXi44P5Rdj"
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQUsFzm9S1W61yHp1DUIqYrH88A1k9y4x5htOvb7C3JYhPeKxKiQJB06Rjd4vDcwhVq4IL8VI1kCl1J-bGEjHIUxRnpwBKLznfPqaBvS-CJEZPXi44P5Rdj",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "CPU non retenu",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur portable Dell reconditionné en France - smaaart",
+      "seller": "smaaart",
+      "price": 0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "Ordinateur portable Dell reconditionné en France - smaaart PC portables Dell Reconditionnés ; Dell Latitude 553015,6\" - Core i5 1245U 1,6 GHz - RAM 16 Go - SSD 256 Go · 377,99 € 419,99 € ; Dell Latitude 542014\" - Core i5 ...",
+      "verified": false,
+      "url": "https://smaaart.fr/476-pc-portables-dell-reconditionnes?srsltid=AYCX9vKlQKI0ySXfnwsYoAmqARtQFj2D7XyV25K4wrYmOIdMH_vGHeHh",
+      "history": [],
+      "seen": "2026-11-26T20:43:14.060164+00:00",
+      "first_seen": "2026-11-26T20:43:14.060164+00:00",
+      "image": "https://serpapi.com/searches/6b0899e22c2f13788783bc02/images/ZrlqgFYDLtAkpvaa_7LZA-NtqZvk2ejpT8ee369NPhA.webp",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Taille écran",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5440 (i7-3) - PC portable reconditionné",
+      "seller": "LDLC",
+      "price": 0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "Dell Latitude 5440 (i7-3) - PC portable reconditionné Dell Latitude 5440 (i7-3) · Reconditionné. IPS/FHD Intel Core i7-1365U - SSD 512 Go NVMe 16 Go - Windows 11 Pro. Donner votre avis. Exclu Web. 849€00. Très bon ...",
+      "verified": false,
+      "url": "https://www.ldlc.com/fiche/PB00761003.html",
+      "history": [],
+      "seen": "2026-11-26T20:43:14.060164+00:00",
+      "first_seen": "2026-11-26T20:43:14.060164+00:00",
+      "image": "https://serpapi.com/searches/6b0899e22c2f13788783bc02/images/ZrlqgFYDLtAkpvaa_7LZA6WNEnbKdeBS6W8SeW9yXdM.webp",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Taille écran",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur portable Latitude 5440, Core i5, 16 Go, SSD ...",
+      "seller": "Materiel.net",
+      "price": 0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "Ordinateur portable Latitude 5440, Core i5, 16 Go, SSD ... Garantie 12 MOIS - Produit reconditionné en FRANCE - en bon état : rayures visibles sur la coque (à moins de 50 cm), aucune rayure sur l'écran, PC 100% ...",
+      "verified": false,
+      "url": "https://www.materiel.net/produit/261010750334.html",
+      "history": [],
+      "seen": "2026-11-26T20:43:14.060164+00:00",
+      "first_seen": "2026-11-26T20:43:14.060164+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     }
   ],
   "usage": {
     "month": "2026-11",
-    "count": 5
-  }
+    "count": 7
+  },
+  "last_attempt": "2026-11-26T20:43:14.060164+00:00",
+  "diagnostics": [
+    {
+      "name": "Ordinateurs portables reconditionnés",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Vendeur non retenu",
+        "Prix inconnu",
+        "Taille écran",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur portable Dell reconditionné en France - smaaart",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Taille écran",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable 14\" reconditionné DELL Latitude 5420 i5 16 ...",
+      "category": "archive",
+      "reasons": [
+        "Vendeur non retenu",
+        "Prix inconnu",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5440 (i7-3) - PC portable reconditionné",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Taille écran",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Amazon.fr : Dell Latitude 5420",
+      "category": "archive",
+      "reasons": [
+        "CPU non retenu",
+        "Prix inconnu",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell reconditionné : PC portables Dell à petit prix",
+      "category": "archive",
+      "reasons": [
+        "Vendeur non retenu",
+        "Prix inconnu",
+        "CPU exact",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur portable Latitude 5440, Core i5, 16 Go, SSD ...",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5420 i5 16 Go 512 Go reconditionné A - ID-Help",
+      "category": "archive",
+      "reasons": [
+        "Vendeur non retenu",
+        "Prix inconnu",
+        "CPU exact",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "DELL LATITUDE 5440 🟨 Prix : 80 000 DA Processeur : Intel ...",
+      "category": "archive",
+      "reasons": [
+        "Vendeur non retenu",
+        "Prix inconnu",
+        "Taille écran",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "DIAKUOE Ryzen 5 7430U CPU, PC portable 16 Go DDR4 RAM 512 Go SSD, carte graphique Radeon, clavier rétroéclairé, Win 11 Ordinateur portable Type-C,",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur Portable - Ryzen 5 7430U - PC Portable écran 2.5K 120 Hz - 16 Go de RAM SSD 512Go - WIFI 6 - Win11 -Type-C USB 3.0 HDMI",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "Windows 11",
+        "IPS",
+        "AZERTY"
+      ]
+    },
+    {
+      "name": "PC portable-MICREAR intel pentium gold 6500Y-32Go RAM 512Go SSD-Windows11 Pro-Ordinateur portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "CPU non retenu",
+        "Taille écran",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS Ordinateur Portable Zenbook 90NB17R1-M00E90 14\" OLED AMD Ryzen AI 5 430 16 Go Ram DDR5 SSD 512 Go",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Vendeur non retenu",
+        "CPU exact",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Asus vivobook 14 e1404fa 512g",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Vendeur non retenu",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable ,AMD Ryzen5 7430U(6C-12T,jusqu'à 4,3GHz),YOGA Ecran Tactile rotation 360°, RAM 16Go DDR4,SSD 512Go,AMD Radeon Graphics - PC portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable-AMD Ryzen5 7430U(6C/12T)- 15,6 Écran tactile 360°Flip-16Go RAM 512Go SSD-Windows 11 Pro - PC Hybride / PC 2 en 1",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur portable Firebat Amd Ryzen 5 7430U 16Go Ram 512Go Ssd Windows 11 Pro Fhd Ips Port Rj45 Intégré Noir",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Asus Ordinateur Portable ZenBook 14 UX3480 14\" OLED amd Ryzen 7 345 16 Go ram 512 Go Ssd PC Portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable ASUS VivoBook 14 X1407 Win 11",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Acer Aspire 14 AI A14-A71M Ordinateur portable WUXGA",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "GENERIQUE PC Portable 15,6 Pouces FHD - Écran Tactile 360° Rotation - AMD Ryzen 5 7430U (Jusqu'à 4,3 GHz) - 16Go RAM - 512Go SSD - Clavier rétroéclair",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14 Gen 7 Copilot+ PC AMD Ryzen AI 5 PRO",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Tivique PC Portable AMD Ryzen 7430U 15,6\" FHD (processeur jusqu'à 4,3 GHz) | Ordinateur Portable 8C/16T, 16GB RAM DDR4*2 + 512GB SSD M.2, 1080 FHD,",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable Asus Vivobook Go 14 Ryzen 5 7520U",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Vendeur non retenu",
+        "CPU non retenu",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable- 15.6\" FHD - Ecran Tactile 360°Rotation-AMD Ryzen5 7430U(6C-12T,jusqu'à 4,3GHz)-16Go DDR4-512Go SSD-Ordinateur Portable - PC portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS ZenBook 14",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Pc Portable Écran tactile 360°Flip Amd Ryzen5 7430U(Jusqu'à 4.3Ghz) Ddr4 16Go Ram 512Go Ssd 15.6''Fhd Windows 11 Pro Ordinateur Gris VANWIN",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC 15 AMD R5-7430U/8GO/512GO",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Vendeur non retenu",
+        "Taille écran",
+        "RAM 16 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable 15,6\" FHD Écran Tactile 360° - AMD Ryzen 5 7430U (Jusqu'à 4,3 GHz) - 16Go RAM - 512Go SSD - Windows 11 Pro - PC portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS PC portable 14'' Ryzen 5 Vivobook Go 14 E1404FA-EB1731W",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Asus Zenbook 14 UX3480KA-U2194W 14\" OLED 60 Hz Ecran tactile AMD Ryzen AI 7 16 Go RAM 512 Go SSD Corail PC portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "GENERIQUE PC Portable 15,6\" FHD Écran Tactile 360° - AMD Ryzen 5 7430U (Jusqu'à 4,3 GHz) - 16Go RAM - 512Go SSD - AMD Radeon Graphics - Windows 11 Pro",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Pc Portable 15.6” Full Hd 2 en 1, Amd Ryzen 5 7430U (6C/12T), 16Go Ram, 512Go Ssd, Écran Tactile 360°, Windows 11 Pro Gris VANWIN",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo IdeaPad 5 14IAL10 2-in-1 - Ordinateur Portable 14'' WUXGA Tactile (Intel Core Ultra 5 225U, RAM 16Go, SSD 512Go, Windows 11 Home) Clavier",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Taille écran",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Samsung Galaxy Book6 14\" Intel Core Ultra",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Pc Portable Gamer 15,6\"Fhd Acemagic Ryzen 5 7430U (6C/12T,Jusqu'à 4.3Ghz),16 Go Ddr4 Ram 512 Go Ssd Radeon Graphics,Windows 11 Pro Gris",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable ACEMAGIC 15,6\"FHD AMD Ryzen 5 7430U 16 Go RAM 512 Go SSD Windows 11 Pro Gris Étoilé - PC Portable Gamer",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable 15,6\" FHD Écran Tactile 360° - AMD Ryzen 5 7430U(6C-12T) - 16Go DDR4 - 512Go SSD - AMD Radeon Graphics - Windows 11 Pro - PC Hybride / PC",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS Zenbook 14 OLED UX3405CA-qd010w PC portable 14\" Intel Core Ultra 7 255H",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Vendeur non retenu",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS VivoBook 14",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "GENERIQUE 15.6''FHD-PC portable-écran tactile 360°Flip-AMD Ryzen5 7430U(jusqu'à 4.3Ghz)-DDR4 16Go ram 512Go ssd -windows 11 pro-ordinateur PC portable",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Taille écran",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable Asus Zenbook 14 UX3480QA-U1090W 14\" OLED 60 Hz Snapdragon X 16 Go RAM 256 Go SSD",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Acemagic Pc Portable 18.5\" Écran Fhd, Ryzen 5 7430U (6C/12T,Jusqu'à 4.3Ghz), 16Go Ram Ddr4 512Go Ssd 2*Type C,3*Usb3.2,Bt5,Wifi5 Noir",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Pc Portable Gamer 15,6\"Fhd Amd Ryzen 5 7430U(6C/12T,Jusqu'à 4.3Ghz),Ram 16Go(8Go+8Go) Ddr4 | 512 Go Ssd Radeon Rx Vega 7,Windows 11 Gris ACEMAGIC",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "18,5\" Ordinateur Portable,Ryzen 7430U,16Go DDR4*2,512Go SSD M.2,Domestique | ACEMAGIC PC Portable jusqu'à 4.3 GHz, Windows 11 Pro, WiFi 6, Type-C, BT",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur Portable 15,6 Pouces avec Ryzen 5 7430U (4.3GHz) Processeur, PC Portable Win 11 16Go DDR4 RAM SSD 512Go, Laptop Clavier Rétroéclairé USB3.0",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Écran hors critères",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS Zenbook 14\" Intel Core Ultra 7 Go",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur portable THOMSON NX15R5-16PK512 15,6\" AMD Ryzen 5 7430U 16 Go RAM DDR4 SSD 512 Go",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Marque non retenue",
+        "Vendeur non retenu",
+        "Écran hors critères",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "ASUS ZenBook 14",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    }
+  ],
+  "status": "ok"
 }
