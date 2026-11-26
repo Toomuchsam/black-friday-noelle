@@ -28,9 +28,11 @@ def classify(o):
     if not sizes: missing.append('Taille écran')
     if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr)',t,re.I): bad.append('RAM insuffisante')
     if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',t,re.I): missing.append('RAM 16 Go')
+    if re.search(r'\b(?:128|256)\s*(?:go|gb)\s*(?:ssd|nvme)|\b(?:ssd|nvme)\s*(?:de\s+)?(?:128|256)\s*(?:go|gb)',t,re.I) and not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb))',t,re.I): bad.append('SSD insuffisant')
     if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',t,re.I): missing.append('SSD 512 Go')
-    if re.search(r'pour pièces|hors service|écran cassé|sans chargeur',t,re.I): bad.append('État incompatible')
+    if re.search(r'pour pièces|hors service|écran cassé|sans chargeur|batterie hs|état correct|état moyen',t,re.I): bad.append('État incompatible')
     if not re.search(r'comme neuf|excellent état|état parfait|\bneuf\b',t,re.I): missing.append('État exact à vérifier')
+    if re.search(r'rupture de stock|épuisé|indisponible',t,re.I): bad.append('Stock indisponible')
     missing.append('Livraison et stock à confirmer')
     for pattern,label in [(r'windows\s*11','Windows 11'),(r'\bips\b','IPS'),(r'azerty','AZERTY'),(r'\busb\b','USB')]:
         if not re.search(pattern,t,re.I): missing.append(label)
@@ -46,14 +48,16 @@ def main():
     count=usage.get('count',0) if usage.get('month')==month else 0
     limit=int(os.getenv('SERPAPI_MONTHLY_LIMIT','240'))
     queries=["Lenovo ThinkPad T14 Gen 2 Ryzen 5650U 16 Go 512 Go reconditionné 400 euros","HP EliteBook 845 G8 Ryzen 5650U 16 Go 512 Go reconditionné","Dell Latitude 5420 5430 i5 16 Go 512 Go reconditionné 400 euros","HP EliteBook 840 G8 16 Go 512 Go AZERTY","Lenovo ThinkPad X13 Gen 2 16 Go 512 Go reconditionné","HP EliteBook 830 G8 16 Go 512 Go","Dell Latitude 5320 5330 16 Go 512 Go","Lenovo IdeaPad Slim 3 14 Ryzen 5 16 Go 512 Go promotion","Acer Aspire 14 Asus Vivobook 14 Ryzen 5 16 Go 512 Go promotion","site:backmarket.fr ThinkPad EliteBook Latitude 16 Go 512 Go","site:trade-discount.com 14 pouces 16 Go 512 Go","site:afbshop.fr 14 pouces 16 Go 512 Go","site:smaaart.fr EliteBook ThinkPad 16 Go 512 Go","site:refurbed.fr ThinkPad EliteBook 16 Go 512 Go","site:laptopservice.fr Latitude EliteBook 16 Go 512 Go","site:boulanger.com PC portable 14 Ryzen 5 16 Go 512 Go"]
+    queries += ["PC portable 14 pouces 16 Go 512 Go AZERTY Windows 11 moins de 400 euros", "ThinkPad L14 T14s Gen 2 16 Go 512 Go AZERTY", "HP ProBook 440 G8 G9 16 Go 512 Go AZERTY", "Dell Latitude 5430 7330 7430 16 Go 512 Go AZERTY", "site:pcportableoccasion.com 16 Go 512 Go 14 pouces", "site:fnac.com ordinateur portable 14 16 Go 512 Go", "site:darty.com ordinateur portable 14 16 Go 512 Go", "site:cdiscount.com ordinateur portable 14 16 Go 512 Go AZERTY"]
     by_id={(o['name'],o.get('seller','')):o for o in old.get('offers',[])}
+    rejected_urls={o.get('url') for o in old.get('offers',[]) if o.get('manual_rejection') and o.get('url')}
     logs=[]; errors=0; success=0
-    daily_budget=8
-    if old.get('last_attempt','')[:10]==now.date().isoformat(): daily_budget=2
+    daily_budget=2
+    # Six cycles par jour, plafond mensuel conservé.
     for _ in range(min(daily_budget, max(0, limit-count))):
         if count>=limit: break
         engine='google_shopping' if count%3==0 else 'google'
-        q=queries[(count//3*2 + count%3)%len(queries)]
+        q=queries[count%len(queries)]
         count+=1
         print(engine,q)
         params=dict(engine=engine,q=q,google_domain='google.fr',gl='fr',hl='fr',api_key=key)
@@ -93,7 +97,7 @@ def main():
             if price and (not history or history[-1]['price']!=price or history[-1]['date'][:10]!=now.date().isoformat()):
                 history.append({'date':now.isoformat(timespec='minutes'),'price':price})
             o=dict(name=title,seller=seller,price=price,size=float(size.group(1).replace(',','.')) if size else 0,condition='Reconditionné' if re.search(r'reconditionn|refurbished',t,re.I) else 'Neuf' if re.search(r'\bneuf\b',t,re.I) else 'À confirmer',specs=t,verified=False,url=url,history=history[-50:],seen=now.isoformat(),first_seen=previous.get('first_seen',now.isoformat()),image=item.get('thumbnail') or previous.get('image',''),origin=engine,note='Prix livré, stock, garantie et état à vérifier chez le vendeur.')
-            if previous.get('manual_rejection'): o['manual_rejection']=previous['manual_rejection']
+            if previous.get('manual_rejection') or url in rejected_urls: o['manual_rejection']=previous.get('manual_rejection') or 'Annonce déjà écartée manuellement'
             category,reasons=classify(o)
             o.update(category=category,reasons=reasons)
             logs.append({'name':title,'category':category,'reasons':reasons})
