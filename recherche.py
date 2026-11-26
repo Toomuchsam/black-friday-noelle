@@ -1,4 +1,6 @@
 import os, json, re, datetime, urllib.request, urllib.parse
+from urllib.parse import urlsplit
+RULES = {'cpu': {'4500U': 1, '4650U': 1, '1135G7': 1, '1145G7': 1, '1165G7': 1, '1185G7': 1, '5500U': 2, '5600U': 2, '5650U': 2, '5625U': 2, '5700U': 2, '5800U': 2, '5850U': 2, '5825U': 2, '7430U': 2, '7530U': 2, '7730U': 2, '1235U': 2, '1245U': 2, '1255U': 2, '1265U': 2, '1335U': 2, '1345U': 2, '1355U': 2, '1365U': 2, '6600U': 3, '6650U': 3, '6800U': 3, '6850U': 3, '7535U': 3, '7735U': 3, '7640U': 3, '7840U': 3, '8640U': 3, '8840U': 3, '125H': 3, '135H': 3, '155H': 3, '125U': 3, '135U': 3, '155U': 3, '225U': 3, '225H': 3, '235U': 3, '255H': 3}, 'brands': ['lenovo', 'thinkpad', 'thinkbook', 'ideapad', 'hp', 'elitebook', 'probook', 'pavilion', 'dell', 'latitude', 'inspiron', 'acer', 'aspire', 'swift', 'asus', 'vivobook', 'zenbook', 'msi', 'samsung', 'fujitsu', 'lifebook', 'dynabook', 'toshiba', 'huawei', 'honor', 'microsoft', 'surface'], 'sellers': ['back market', 'backmarket', 'afb', 'trade discount', 'trade-discount', 'laptopservice', 'laptop service', 'refurbed', 'rebuy', 'boulanger', 'darty', 'fnac', 'ldlc', 'materiel.net', 'lenovo', 'dell', 'hp', 'acer', 'asus', 'electro dépôt', 'pccomponentes', 'amazon', 'cdiscount', 'rakuten', 'carrefour', 'auchan', 'rue du commerce', 'easy cash', 'cash express', 'pc portable occasion', 'smaaart'], 'models': {'thinkpad t14 gen 1': 280, 'thinkpad t14 gen 2': 330, 'thinkpad t14 gen 3': 410, 'thinkpad x13 gen 2': 340, 'elitebook 840 g8': 300, 'elitebook 845 g8': 330, 'elitebook 830 g8': 290, 'latitude 5420': 280, 'latitude 5430': 350, 'latitude 5440': 400, 'latitude 5320': 270}}
 from pathlib import Path
 
 key = os.environ['SERPAPI_KEY']
@@ -10,16 +12,7 @@ usage = old.get('usage', {})
 count = usage.get('count', 0) if usage.get('month') == month else 0
 if count >= 240:
     print('Limite mensuelle locale atteinte'); raise SystemExit(0)
-queries = [
-    'PC portable neuf Ryzen 5 Ryzen 7 16 Go SSD 512 Go Windows 11 moins de 450 euros',
-    'Lenovo ThinkPad T14 X13 L14 reconditionné 16 Go SSD 512 Go AZERTY',
-    'PC portable neuf Intel Core i5 i7 Core Ultra 5 16 Go SSD 512 Go Windows 11',
-    'HP EliteBook 830 840 845 ProBook 440 445 reconditionné 16 Go SSD 512 Go',
-    'Dell Latitude 5320 5420 5430 5440 reconditionné 16 Go SSD 512 Go',
-    'PC portable Ryzen 5 Core i5 16 Go SSD 1 To moins de 450 euros',
-    'PC portable 13 14 pouces Ryzen 5 Core i5 16 Go SSD 512 Go AZERTY',
-    'Black Friday PC portable Ryzen 5 Core i5 16 Go SSD 512 Go promotion France',
-]
+queries = ['Lenovo ThinkPad T14 X13 Ryzen 5650U 16 Go SSD 512 Go reconditionné France', 'HP EliteBook 845 840 G8 G9 16 Go SSD 512 Go reconditionné France', 'Dell Latitude 5430 5440 5420 16 Go SSD 512 Go reconditionné France', 'PC portable Lenovo HP Acer Asus Ryzen 5 7430U 7530U 16 Go 512 Go neuf France', 'PC portable Lenovo HP Dell Acer Asus i5 1235U 1335U 16 Go 512 Go neuf France', 'site:backmarket.fr ordinateur portable ThinkPad EliteBook Latitude 16 Go 512 Go', 'site:trade-discount.com PC portable 16 Go 512 Go ThinkPad EliteBook Latitude', 'site:afbshop.fr PC portable 16 Go 512 Go ThinkPad EliteBook Latitude', 'PC portable ThinkPad EliteBook Latitude Ryzen 5 i5 16 Go SSD 1 To reconditionné', 'PC portable 13 14 pouces Ryzen 5 5650U i5 1235U 16 Go 512 Go reconditionné']
 q = queries[count % len(queries)]
 old['usage'] = {'month': month, 'count': count+1}
 path.write_text(json.dumps(old, ensure_ascii=False, indent=2), encoding='utf-8')
@@ -45,10 +38,15 @@ for item in data['shopping_results']:
     if not re.search(r'ryzen\s*[579]|(?:core\s*)?i[579]\b|core\s*(?:ultra\s*)?[579]\b',text,re.I): continue
     size = re.search(r'\b(1[3456](?:[.,][0-9])?)\s*(?:pouces|inch|["″])',text,re.I)
     seller = item.get('source','Vendeur à confirmer')
+    if not any(re.search(r'\b'+re.escape(x)+r'\b', title, re.I) for x in RULES['brands']): continue
+    if not any(x in seller.lower() for x in RULES['sellers']): continue
+    codes = set(re.findall(r'\b(?:i[3579][ -]?)?(\d{4}(?:G[147]|[UHY]|HS|HX)|\d{3}[UH])\b',text.upper()))
+    if len(codes)!=1 or not codes.issubset(RULES['cpu']): continue
+    if size and float(size.group(1).replace(',','.')) >= 16: continue
     identity = (title,seller)
     previous = by_id.get(identity,{})
     history = previous.get('history',[])
-    if not history or history[-1]['price'] != price:
+    if not history or history[-1]['price'] != price or history[-1]['date'][:10] != now.date().isoformat():
         history.append({'date':now.isoformat(timespec='minutes'),'price':price})
     condition = 'Reconditionné' if re.search(r'reconditionn|refurbished|renewed',text,re.I) else ('Neuf' if re.search(r'\bneuf\b|\bnew\b',text,re.I) else 'À confirmer')
     if re.search(r'\b(?:pour pièces|hors service|sans chargeur|écran cassé)\b',text,re.I): continue
