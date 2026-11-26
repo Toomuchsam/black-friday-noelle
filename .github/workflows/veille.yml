@@ -1,33 +1,36 @@
 name: Veille Black Friday de Noelle
-
 on:
   schedule:
-    - cron: '17 * * * *'
+    - cron: '17 */4 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: veille-noelle
+  cancel-in-progress: false
 
 jobs:
   veille:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Recuperer le site
-        uses: actions/checkout@v4
-
-      - name: Installer Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
 
-      - name: Verifier la base de donnees
-        run: python -m json.tool offres.json > /dev/null
+      - name: Rechercher les offres
+        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+        run: python recherche.py
 
-      - name: Tester le moteur de veille
+      - name: Enregistrer les donnees
         run: |
-          echo "Automatisation operationnelle"
-          echo "Budget maximum : moins de 450 euros"
-          echo "RAM : 16 Go minimum"
-          echo "SSD : 512 Go minimum"
-          echo "Neuf et reconditionne"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add offres.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Actualisation de la veille'
+            git push
+          fi
