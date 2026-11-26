@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:43+00:00",
+  "updated": "2026-11-26T21:17+00:00",
   "offers": [
     {
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
@@ -22,8 +22,10 @@
       "reasons": [
         "Hors budget",
         "Marque non retenue",
-        "CPU non retenu",
         "Écran hors critères",
+        "Performances CPU à confirmer",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "IPS",
         "AZERTY",
         "USB"
@@ -49,9 +51,11 @@
       "category": "archive",
       "reasons": [
         "Marque non retenue",
-        "Vendeur non retenu",
         "Écran hors critères",
+        "Fiabilité vendeur à vérifier",
         "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -75,10 +79,12 @@
         }
       ],
       "seen": "2026-11-26T18:05:34.249817+00:00",
-      "category": "archive",
+      "category": "prometteuse",
       "reasons": [
-        "CPU non retenu",
+        "Performances CPU à confirmer",
         "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -108,8 +114,10 @@
       "reasons": [
         "Hors budget",
         "Marque non retenue",
-        "CPU non retenu",
         "Écran hors critères",
+        "Performances CPU à confirmer",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "IPS",
         "AZERTY",
         "USB"
@@ -137,8 +145,10 @@
       "category": "archive",
       "reasons": [
         "Marque non retenue",
-        "CPU non retenu",
         "Écran hors critères",
+        "Performances CPU à confirmer",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "IPS",
         "AZERTY",
         "USB"
@@ -164,6 +174,8 @@
         "Prix inconnu",
         "Taille écran",
         "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -187,7 +199,12 @@
       "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
       "category": "archive",
       "reasons": [
-        "Prix annoncé 849 € : hors budget"
+        "Hors budget",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "AZERTY",
+        "USB"
       ]
     },
     {
@@ -211,6 +228,449 @@
         "CPU exact",
         "Taille écran",
         "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 Touchscreen Laptop Business, 13,3\" ...",
+      "seller": "Amazon",
+      "price": 0,
+      "size": 13.3,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 830 G8 Touchscreen Laptop Business, 13,3\" ... HP EliteBook 830 G8 Touchscreen Laptop Business, 13,3\" FHD (1920 x 1080) Touch, Intel Core i7-1185G7 3,0GHz, RAM 16 Go, SSD 512 Go, Clavier QWERTY US, Windows ... {} []",
+      "verified": false,
+      "url": "https://www.amazon.fr/HP-EliteBook-830-G8-Touchscreen/dp/B0G3FNJ6S1",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RdYmYkyt0D2wVrJ-rqjvB7A.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Clavier non AZERTY",
+        "Prix inconnu",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11",
+      "seller": "Fnac.com",
+      "price": 384.99,
+      "size": 13.0,
+      "condition": "Reconditionné",
+      "specs": "HP EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11 Reconditionné en France / État correct / Écran : défauts visibles / Coque : traces d'usages visibles / 100 % fonctionnel, testé et vérifié / Chargeur compatible ... {'bottom': {'detected_extensions': {'price': 38499, 'currency': '€'}, 'extensions': ['384,99 €', 'En stock', 'Livraison gratuite']}} []",
+      "verified": false,
+      "url": "https://www.fnac.com/mp53159581/HP-EliteBook-830-G8-i5-1135G7-16Go-512Go-SSD-13-W11/w-4",
+      "history": [
+        {
+          "date": "2026-11-26T21:17+00:00",
+          "price": 384.99
+        }
+      ],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RR-3UDfmKKrtgsTh9SxuNyw.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 13.3\" I7 16 Go Argent 512 Go",
+      "seller": "Topbiz.fr",
+      "price": 0,
+      "size": 13.3,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 830 G8 13.3\" I7 16 Go Argent 512 Go Processeur Intel® Core™ i7-1165G7 (jusqu'à 4,7 GHz avec la technologie Intel® Turbo Boost, 12 Mo de mémoire cache L3, 4 cœurs, 8 fils) · Windows 10 Professionnel ... {} []",
+      "verified": false,
+      "url": "https://www.topbiz.fr/ordinateurs-portables/218129-hp-elitebook-830-g8-intel-core-i7-i-0195908215165.html?srsltid=AYCX9vI0qbuHb_sDp4J3Z2xA-TjeFYnUO0PQtpYtf5P6gEnTDJi5flvQ",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 avis : toujours une valeur sûre en ...",
+      "seller": "Combak",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 830 G8 avis : toujours une valeur sûre en ... 16 Go RAM / 512 Go, de 379 € à 545 €. 32 Go RAM / 256 Go, de 432 € à 583 €. 32 ... Entre le HP EliteBook 830 G7 et le HP EliteBook 830 G8, l'évolution est ... {'bottom': {'detected_extensions': {'price': 399, 'currency': '€ de livraison', 'retours_sous_jour_s': 14}, 'extensions': ['3,99 € de livraison', 'Retours sous 14 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.combak.co/blog/hp-elitebook-830-g8-avis",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RWoA4X9ui8ThoDpGBBxgBA0.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 13\" Reconditionné",
+      "seller": "Back Market",
+      "price": 0,
+      "size": 13.0,
+      "condition": "Reconditionné",
+      "specs": "HP EliteBook 830 G8 13\" Reconditionné 512 Go 369,00 €. 1024 Go 468,00 €. 2048 Go 627,00 €. 4096 Go 956,00 € ... HP EliteBook 830 G8 13\" GHz - SSD 256 Go - 16 Go AZERTY - Français. À partir ... {'top': {'detected_extensions': {'rating': 4.4, 'reviews': 237, 'price_from': 355.0, 'price_to': 1158.0, 'currency': '€', 'retours_sous_jours': 30}, 'extensions': ['4,4(237)', '355,00 € à 1 158,00 €', 'En stock', '6,99 € de livraison', 'Retours sous 30 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.backmarket.fr/fr-fr/p/hp-elitebook-830-g8-13",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RYB_-x0nAcbQxEYXQ3s0lPE.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 Notebook - 13.3\" - Core i7 1165G7",
+      "seller": "Bureau-Vallée",
+      "price": 0,
+      "size": 13.3,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 830 G8 Notebook - 13.3\" - Core i7 1165G7 HP EliteBook 830 G8 Notebook - Pc portable 13.3\" - Core i7 1165G7 - 16 Go RAM - 512 Go SSD · Conçu pour vous. Le HP EliteBook 830 s'adapte à votre activité avec ... {} []",
+      "verified": false,
+      "url": "https://www.bureau-vallee.fr/hp-elitebook-830-g8-notebook-pc-portable-13-3-core-i7-1165g7-16-go-ram-512-go-ssd-405138456.html?srsltid=AYCX9vJJKqVNIbTzn4RWzNY3hlpbWGSFcDtX43OQEC5zjtjfYI3gpkl6",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RX9QKGs1Y1l_oPFWNEfvY84.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Hp elitebook 830 g8 d'occasion - Ordinateurs",
+      "seller": "leboncoin",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Hp elitebook 830 g8 d'occasion - Ordinateurs HP EliteBook ( possible l'utiliser mode tablette ) x360 830 G8, avec un processeur Intel Core i5-1145G7, 16 Go de RAM et 512 Go de stockage SSD. {} []",
+      "verified": false,
+      "url": "https://www.leboncoin.fr/ck/ordinateurs/hp-elitebook-830-g8",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RXr-7r4KIFKbvWAbuHWkYTg.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Hp EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11",
+      "seller": "Darty",
+      "price": 0,
+      "size": 13.0,
+      "condition": "À confirmer",
+      "specs": "Hp EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11 PC portable Hp EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11 · Parfait 454,99 € · Très bon 434,99 € · Correct 374,99 €. {'bottom': {'detected_extensions': {'price': 38499, 'currency': '€ à €', 'retours_sous_jour_s': 15}, 'extensions': ['384,99 € à 464,99 €', 'En stock', 'Livraison gratuite', 'Retours sous 15 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.darty.com/nav/achat/ref/MC353159581.html",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RRhQDt-J5wdgtkr9cczpMBY.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Latitude 5320 - Ordinateurs portables",
+      "seller": "idealo",
+      "price": 0,
+      "size": 13.3,
+      "condition": "À confirmer",
+      "specs": "Latitude 5320 - Ordinateurs portables 512 Go - 16 Go AZERTY. PC portable professionnel, Taille d'écran 13,3 pouces, Full HD, Intel Core i5-1135G7, 16 Go Mémoire {} []",
+      "verified": false,
+      "url": "https://www.idealo.fr/liste/118587258/latitude-5320.html",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d9602a0ce88300d57c/images/tYpx4oCFu4aMlEe5dGt6OFMR8BxySfV-5XuYq08zY6k.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5320 13,3\" i5 Gen 11 16Go RAM 256Go SSD ...",
+      "seller": "Kiatoo",
+      "price": 0,
+      "size": 13.3,
+      "condition": "À confirmer",
+      "specs": "Dell Latitude 5320 13,3\" i5 Gen 11 16Go RAM 256Go SSD ... Processeur · Intel Core i7 ; La capacité de votre RAM · 16Go RAM. 90,00 €. 32Go RAM ; Le type de disque et sa capacité · 256Go SSD. 70,00 €. 512Go SSD. 150,00 €. 1To ... {'top': {'detected_extensions': {'rating': 4.1, 'reviews': 170, 'price_from': 499.0, 'price_to': 679.0, 'currency': '€', 'retours_sous_jours': 14}, 'extensions': ['4,1(170)', '499,00 € à 679,00 €', 'En stock', '9,90 € de livraison', 'Retours sous 14 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.kiatoo.com/pc-portables/ultrabooks/78007-dell-latitude-5320-core-i5-gen-11-16go-ram-256go-ssd-windows-11.html?srsltid=AYCX9vIJBmca2MMIkpiN0juHdRrfIqxxc66QJUZ-wfPR5Zud2zX7wqIl",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d9602a0ce88300d57c/images/tYpx4oCFu4aMlEe5dGt6OCsMcYj7K730oUYmJ5oH_7w.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5320 - 16Go - 512Go SSD - W11",
+      "seller": "LaptopService",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Dell Latitude 5320 - 16Go - 512Go SSD - W11 Le Dell Latitude 5320 est équipé d'un processeur Intel Core i5-1135G7 très performant, allié à un disque SSD de 512Go et 16Go de mémoire RAM DDR4 qui offrent ... {} []",
+      "verified": false,
+      "url": "https://www.laptopservice.fr/ordinateur-portable/31969-dell-latitude-5320-16go-512go-ssd-w11-3663369353681.html",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d9602a0ce88300d57c/images/tYpx4oCFu4aMlEe5dGt6OKjLQpCBLT8AhlA4DgBq1qs.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Caractéristiques de l'ordinateur Latitude 5320",
+      "seller": "Dell",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Caractéristiques de l'ordinateur Latitude 5320 Dell Latitude 5320/Latitude 5320 2-en-1. Présentation du châssis Droite Gauche Haut Avant Partie inférieure Modes LED d'état et de niveau de charge de la ... {} []",
+      "verified": false,
+      "url": "https://www.dell.com/support/manuals/fr-fr/latitude-13-5320-2-in-1-laptop/latitude_5320_setup_and_specs/caract%C3%A9ristiques-de-lordinateur-latitude-5320?guid=guid-15fe98cc-37ad-4b38-aa1b-7223fdc78db0&lang=fr-fr",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5320 13\" Reconditionné",
+      "seller": "Back Market",
+      "price": 0,
+      "size": 13.0,
+      "condition": "Reconditionné",
+      "specs": "Dell Latitude 5320 13\" Reconditionné € 512 Go 364,00 €. Dell Latitude 5320 13\" Core i5 2.6 GHz - SSD 256 Go - 16 Go AZERTY … 3 GHz - SSD 512 Go - 16 Go AZERTY {'top': {'detected_extensions': {'rating': 4.2, 'reviews': 266, 'price_from': 271.0, 'price_to': 786.0, 'currency': '€', 'retours_sous_jours': 30}, 'extensions': ['4,2(266)', '271,00 € à 786,00 €', 'En stock', '6,49 € de livraison', 'Retours sous 30 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.backmarket.fr/fr-fr/p/dell-latitude-5320-13",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d9602a0ce88300d57c/images/tYpx4oCFu4aMlEe5dGt6OEmJ4n57UBfsN1FzFsDWpuM.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5320 - 16Go - 512Go SSD - W11 - Cdiscount",
+      "seller": "Cdiscount",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Dell Latitude 5320 - 16Go - 512Go SSD - W11 - Cdiscount Dell Latitude 5320 - 16Go - 512Go SSD - W11. Windows 11 Famille 64bits ・ 63,99 € 16Go (16384Mo) DDR4 | Stockage : | Intel Iris Xe Graphics | Système d' ... {'bottom': {'detected_extensions': {'price': 36400, 'currency': '€Ancien prix € €avec le codeDES (Copier)DES)Copié(', 'retours_sous_jour_s': 14}, 'extensions': ['364,00 €Ancien prix : 389 €389 €avec le code25DES299 (Copier)25DES299)Copié(', 'En stock', 'Livraison gratuite', 'Retours sous 14 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.cdiscount.com/informatique/ordinateurs-pc-portables/dell-ordinateur-portable-dell-latitude-intel/f-10709-del1716502991456.html",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d9602a0ce88300d57c/images/tYpx4oCFu4aMlEe5dGt6OCjgvSyjSvMY37WTxso8Te4.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable 13,3\" reconditionné DELL Latitude 5320 i5 8 ...",
+      "seller": "Detag Informatique",
+      "price": 0,
+      "size": 13.3,
+      "condition": "Reconditionné",
+      "specs": "PC portable 13,3\" reconditionné DELL Latitude 5320 i5 8 ... 16 Go (+100 € HT) 1920 x 1080 pixels. DELL Latitude 5330 i5 16 Go 512 Go … 638,40 € 532,00 € HT 1 en stock Grade B PC portable 13,3\" recond. {} []",
+      "verified": false,
+      "url": "https://www.detag-informatique.fr/produits/la5320i511g08256rb/",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "https://serpapi.com/searches/6b08a1d9602a0ce88300d57c/images/tYpx4oCFu4aMlEe5dGt6OKoA9TvxpIddMC9K2H6jRR0.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Test du Dell Latitude 5320 : Dell change le touchpad",
+      "seller": "Notebookcheck.fr",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Test du Dell Latitude 5320 : Dell change le touchpad Intel Core i5-1135G7 Intel Iris Xe Graphics G7 80EUs. Processeur: 1300 MHz, RAM: 2000 MHz Mémoire 16 Go , Dual Channel DDR4, soldered Écran … ... {'top': {'detected_extensions': {'rating': 84}, 'extensions': ['84 %', 'Critique de Sebastian Jentsch']}} []",
+      "verified": false,
+      "url": "https://www.notebookcheck.biz/Test-du-Dell-Latitude-5320-Dell-change-le-touchpad.608470.0.html",
+      "history": [],
+      "seen": "2026-11-26T21:17:12.042906+00:00",
+      "first_seen": "2026-11-26T21:17:12.042906+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "Taille écran",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -220,18 +680,18 @@
   ],
   "usage": {
     "month": "2026-11",
-    "count": 7
+    "count": 9
   },
-  "last_attempt": "2026-11-26T20:43:14.060164+00:00",
+  "last_attempt": "2026-11-26T21:17:12.042906+00:00",
   "diagnostics": [
     {
-      "name": "Ordinateurs portables reconditionnés",
+      "name": "HP EliteBook 830 G8 Touchscreen Laptop Business, 13,3\" ...",
       "category": "archive",
       "reasons": [
-        "Marque non retenue",
-        "Vendeur non retenu",
+        "Clavier non AZERTY",
         "Prix inconnu",
-        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -239,12 +699,25 @@
       ]
     },
     {
-      "name": "Ordinateur portable Dell reconditionné en France - smaaart",
+      "name": "HP EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11",
+      "category": "prometteuse",
+      "reasons": [
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 13.3\" I7 16 Go Argent 512 Go",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
-        "Taille écran",
-        "SSD 512 Go",
+        "Fiabilité vendeur à vérifier",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -252,59 +725,42 @@
       ]
     },
     {
-      "name": "PC portable 14\" reconditionné DELL Latitude 5420 i5 16 ...",
-      "category": "archive",
-      "reasons": [
-        "Vendeur non retenu",
-        "Prix inconnu",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Dell Latitude 5440 (i7-3) - PC portable reconditionné",
+      "name": "HP EliteBook 830 G8 avis : toujours une valeur sûre en ...",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
-        "Taille écran",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Amazon.fr : Dell Latitude 5420",
-      "category": "archive",
-      "reasons": [
-        "CPU non retenu",
-        "Prix inconnu",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Dell reconditionné : PC portables Dell à petit prix",
-      "category": "archive",
-      "reasons": [
-        "Vendeur non retenu",
-        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
         "CPU exact",
-        "SSD 512 Go",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
+        "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "Ordinateur portable Latitude 5440, Core i5, 16 Go, SSD ...",
+      "name": "HP EliteBook 830 G8 13\" Reconditionné",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
         "CPU exact",
-        "Taille écran",
-        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 830 G8 Notebook - 13.3\" - Core i7 1165G7",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -312,12 +768,86 @@
       ]
     },
     {
-      "name": "Dell Latitude 5420 i5 16 Go 512 Go reconditionné A - ID-Help",
-      "category": "archive",
+      "name": "Hp elitebook 830 g8 d'occasion - Ordinateurs",
+      "category": "piste",
       "reasons": [
-        "Vendeur non retenu",
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Hp EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Latitude 5320 - Ordinateurs portables",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5320 13,3\" i5 Gen 11 16Go RAM 256Go SSD ...",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Dell Latitude 5320 - 16Go - 512Go SSD - W11",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Caractéristiques de l'ordinateur Latitude 5320",
+      "category": "piste",
+      "reasons": [
         "Prix inconnu",
         "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -325,128 +855,41 @@
       ]
     },
     {
-      "name": "DELL LATITUDE 5440 🟨 Prix : 80 000 DA Processeur : Intel ...",
-      "category": "archive",
+      "name": "Dell Latitude 5320 13\" Reconditionné",
+      "category": "piste",
       "reasons": [
-        "Vendeur non retenu",
         "Prix inconnu",
-        "Taille écran",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "DIAKUOE Ryzen 5 7430U CPU, PC portable 16 Go DDR4 RAM 512 Go SSD, carte graphique Radeon, clavier rétroéclairé, Win 11 Ordinateur portable Type-C,",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Ordinateur Portable - Ryzen 5 7430U - PC Portable écran 2.5K 120 Hz - 16 Go de RAM SSD 512Go - WIFI 6 - Win11 -Type-C USB 3.0 HDMI",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "Windows 11",
-        "IPS",
-        "AZERTY"
-      ]
-    },
-    {
-      "name": "PC portable-MICREAR intel pentium gold 6500Y-32Go RAM 512Go SSD-Windows11 Pro-Ordinateur portable",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "CPU non retenu",
-        "Taille écran",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS Ordinateur Portable Zenbook 90NB17R1-M00E90 14\" OLED AMD Ryzen AI 5 430 16 Go Ram DDR5 SSD 512 Go",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Vendeur non retenu",
         "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
-        "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "Asus vivobook 14 e1404fa 512g",
-      "category": "archive",
+      "name": "Dell Latitude 5320 - 16Go - 512Go SSD - W11 - Cdiscount",
+      "category": "piste",
       "reasons": [
-        "Hors budget",
-        "Vendeur non retenu",
+        "Prix inconnu",
         "CPU exact",
         "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "IPS",
         "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "PC Portable ,AMD Ryzen5 7430U(6C-12T,jusqu'à 4,3GHz),YOGA Ecran Tactile rotation 360°, RAM 16Go DDR4,SSD 512Go,AMD Radeon Graphics - PC portable",
-      "category": "archive",
+      "name": "PC portable 13,3\" reconditionné DELL Latitude 5320 i5 8 ...",
+      "category": "piste",
       "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable-AMD Ryzen5 7430U(6C/12T)- 15,6 Écran tactile 360°Flip-16Go RAM 512Go SSD-Windows 11 Pro - PC Hybride / PC 2 en 1",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Ordinateur portable Firebat Amd Ryzen 5 7430U 16Go Ram 512Go Ssd Windows 11 Pro Fhd Ips Port Rj45 Intégré Noir",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Asus Ordinateur Portable ZenBook 14 UX3480 14\" OLED amd Ryzen 7 345 16 Go ram 512 Go Ssd PC Portable",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
         "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
@@ -454,412 +897,15 @@
       ]
     },
     {
-      "name": "PC Portable ASUS VivoBook 14 X1407 Win 11",
-      "category": "archive",
+      "name": "Test du Dell Latitude 5320 : Dell change le touchpad",
+      "category": "piste",
       "reasons": [
-        "Hors budget",
-        "CPU exact",
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
         "Taille écran",
-        "RAM 16 Go",
         "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Acer Aspire 14 AI A14-A71M Ordinateur portable WUXGA",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "GENERIQUE PC Portable 15,6 Pouces FHD - Écran Tactile 360° Rotation - AMD Ryzen 5 7430U (Jusqu'à 4,3 GHz) - 16Go RAM - 512Go SSD - Clavier rétroéclair",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Lenovo ThinkPad T14 Gen 7 Copilot+ PC AMD Ryzen AI 5 PRO",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Tivique PC Portable AMD Ryzen 7430U 15,6\" FHD (processeur jusqu'à 4,3 GHz) | Ordinateur Portable 8C/16T, 16GB RAM DDR4*2 + 512GB SSD M.2, 1080 FHD,",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable Asus Vivobook Go 14 Ryzen 5 7520U",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Vendeur non retenu",
-        "CPU non retenu",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable- 15.6\" FHD - Ecran Tactile 360°Rotation-AMD Ryzen5 7430U(6C-12T,jusqu'à 4,3GHz)-16Go DDR4-512Go SSD-Ordinateur Portable - PC portable",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS ZenBook 14",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Pc Portable Écran tactile 360°Flip Amd Ryzen5 7430U(Jusqu'à 4.3Ghz) Ddr4 16Go Ram 512Go Ssd 15.6''Fhd Windows 11 Pro Ordinateur Gris VANWIN",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC 15 AMD R5-7430U/8GO/512GO",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Vendeur non retenu",
-        "Taille écran",
-        "RAM 16 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC portable 15,6\" FHD Écran Tactile 360° - AMD Ryzen 5 7430U (Jusqu'à 4,3 GHz) - 16Go RAM - 512Go SSD - Windows 11 Pro - PC portable",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS PC portable 14'' Ryzen 5 Vivobook Go 14 E1404FA-EB1731W",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Asus Zenbook 14 UX3480KA-U2194W 14\" OLED 60 Hz Ecran tactile AMD Ryzen AI 7 16 Go RAM 512 Go SSD Corail PC portable",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "GENERIQUE PC Portable 15,6\" FHD Écran Tactile 360° - AMD Ryzen 5 7430U (Jusqu'à 4,3 GHz) - 16Go RAM - 512Go SSD - AMD Radeon Graphics - Windows 11 Pro",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Pc Portable 15.6” Full Hd 2 en 1, Amd Ryzen 5 7430U (6C/12T), 16Go Ram, 512Go Ssd, Écran Tactile 360°, Windows 11 Pro Gris VANWIN",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Lenovo IdeaPad 5 14IAL10 2-in-1 - Ordinateur Portable 14'' WUXGA Tactile (Intel Core Ultra 5 225U, RAM 16Go, SSD 512Go, Windows 11 Home) Clavier",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Taille écran",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Samsung Galaxy Book6 14\" Intel Core Ultra",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Pc Portable Gamer 15,6\"Fhd Acemagic Ryzen 5 7430U (6C/12T,Jusqu'à 4.3Ghz),16 Go Ddr4 Ram 512 Go Ssd Radeon Graphics,Windows 11 Pro Gris",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC portable ACEMAGIC 15,6\"FHD AMD Ryzen 5 7430U 16 Go RAM 512 Go SSD Windows 11 Pro Gris Étoilé - PC Portable Gamer",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable 15,6\" FHD Écran Tactile 360° - AMD Ryzen 5 7430U(6C-12T) - 16Go DDR4 - 512Go SSD - AMD Radeon Graphics - Windows 11 Pro - PC Hybride / PC",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS Zenbook 14 OLED UX3405CA-qd010w PC portable 14\" Intel Core Ultra 7 255H",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Vendeur non retenu",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS VivoBook 14",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "GENERIQUE 15.6''FHD-PC portable-écran tactile 360°Flip-AMD Ryzen5 7430U(jusqu'à 4.3Ghz)-DDR4 16Go ram 512Go ssd -windows 11 pro-ordinateur PC portable",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Taille écran",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC portable Asus Zenbook 14 UX3480QA-U1090W 14\" OLED 60 Hz Snapdragon X 16 Go RAM 256 Go SSD",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Acemagic Pc Portable 18.5\" Écran Fhd, Ryzen 5 7430U (6C/12T,Jusqu'à 4.3Ghz), 16Go Ram Ddr4 512Go Ssd 2*Type C,3*Usb3.2,Bt5,Wifi5 Noir",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Pc Portable Gamer 15,6\"Fhd Amd Ryzen 5 7430U(6C/12T,Jusqu'à 4.3Ghz),Ram 16Go(8Go+8Go) Ddr4 | 512 Go Ssd Radeon Rx Vega 7,Windows 11 Gris ACEMAGIC",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "18,5\" Ordinateur Portable,Ryzen 7430U,16Go DDR4*2,512Go SSD M.2,Domestique | ACEMAGIC PC Portable jusqu'à 4.3 GHz, Windows 11 Pro, WiFi 6, Type-C, BT",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Ordinateur Portable 15,6 Pouces avec Ryzen 5 7430U (4.3GHz) Processeur, PC Portable Win 11 16Go DDR4 RAM SSD 512Go, Laptop Clavier Rétroéclairé USB3.0",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Écran hors critères",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS Zenbook 14\" Intel Core Ultra 7 Go",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "RAM 16 Go",
-        "SSD 512 Go",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Ordinateur portable THOMSON NX15R5-16PK512 15,6\" AMD Ryzen 5 7430U 16 Go RAM DDR4 SSD 512 Go",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "Marque non retenue",
-        "Vendeur non retenu",
-        "Écran hors critères",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "ASUS ZenBook 14",
-      "category": "archive",
-      "reasons": [
-        "Hors budget",
-        "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
         "AZERTY",
