@@ -6,6 +6,7 @@ on:
   push:
     branches: [main]
     paths:
+      - recherche.py
       - index.html
       - noel.png
       - veille-chatgpt.json
@@ -30,7 +31,7 @@ jobs:
           python-version: '3.12'
 
       - name: Rechercher les offres
-        if: github.event_name != 'push'
+        if: github.event_name != 'push' || contains(github.event.head_commit.message, 'V4.3')
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
         run: |
@@ -38,7 +39,7 @@ jobs:
           python recherche.py
 
       - name: Enregistrer les donnees
-        if: always() && github.event_name != 'push'
+        if: always() && (github.event_name != 'push' || contains(github.event.head_commit.message, 'V4.3'))
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
