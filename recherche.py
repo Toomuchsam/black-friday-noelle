@@ -41,34 +41,43 @@ for item in items:
         prices = re.findall(r'(?<!\d)(\d{2,3}(?:[,.]\d{2})?)\s*€', text)
         if len(set(prices)) == 1: price = float(prices[0].replace(',', '.'))
     url = item.get('link') or item.get('product_link')
-    if item.get('price') and '€' not in str(item['price']): continue
+    if item.get('price') and '€' not in str(item['price']):
+        reject("item.get('price') and '€' not in str(item['price'])"); continue
     if not isinstance(price,(int,float)) or not 0 < price < 450 or not url or not url.startswith('https://'):
         reject('Prix ou lien non admissible'); continue
     if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',text,re.I):
         reject('RAM non confirmée'); continue
-    if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr[345])',text,re.I): continue
-    if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',text,re.I): continue
-    if not re.search(r'ryzen\s*[579]|(?:core\s*)?i[579]\b|core\s*(?:ultra\s*)?[579]\b',text,re.I): continue
+    if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr[345])',text,re.I):
+        reject("re.search(r'\\b(?:4|8)\\s*(?:go|gb)\\s*(?:de\\s+)?(?:ram|ddr[345])',text,re.I)"); continue
+    if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',text,re.I):
+        reject("not re.search(r'\\b(?:512\\s*(?:go|gb)|[12]\\s*(?:to|tb)|1024\\s*(?:go|gb))\\b',text,re.I)"); continue
+    if not re.search(r'ryzen\s*[579]|(?:core\s*)?i[579]\b|core\s*(?:ultra\s*)?[579]\b',text,re.I):
+        reject("not re.search(r'ryzen\\s*[579]|(?:core\\s*)?i[579]\\b|core\\s*(?:ultra\\s*)?[579]\\b',text,re.I)"); continue
     size = re.search(r'\b(1[3456](?:[.,][0-9])?)\s*(?:pouces|inch|["″])',text,re.I)
     seller = item.get('source') or urlsplit(url).hostname or 'Vendeur à confirmer'
     domains = {'backmarket.fr':'Back Market','trade-discount.com':'Trade Discount','afbshop.fr':'AfB','laptopservice.fr':'LaptopService','refurbed.fr':'Refurbed'}
     host = urlsplit(url).hostname or ''
     for domain, label in domains.items():
         if host == domain or host.endswith('.'+domain): seller = label
-    if not any(re.search(r'\b'+re.escape(x)+r'\b', title, re.I) for x in RULES['brands']): continue
-    if not any(x in seller.lower() for x in RULES['sellers']): continue
+    if not any(re.search(r'\b'+re.escape(x)+r'\b', title, re.I) for x in RULES['brands']):
+        reject("not any(re.search(r'\\b'+re.escape(x)+r'\\b', title, re.I) for x in RULES['brands'])"); continue
+    if not any(x in seller.lower() for x in RULES['sellers']):
+        reject("not any(x in seller.lower() for x in RULES['sellers'])"); continue
     codes = set(re.findall(r'\b(?:i[3579][ -]?)?(\d{4}(?:G[147]|[UHY]|HS|HX)|\d{3}[UH])\b',text.upper()))
     if codes and (len(codes)!=1 or not codes.issubset(RULES['cpu'])):
         reject('CPU hors sélection ou ambigu'); continue
-    if size and float(size.group(1).replace(',','.')) >= 16: continue
+    if size and float(size.group(1).replace(',','.')) >= 16:
+        reject("size and float(size.group(1).replace(',','.')) >= 16"); continue
     identity = (title,seller)
     previous = by_id.get(identity,{})
     history = previous.get('history',[])
     if not history or history[-1]['price'] != price or history[-1]['date'][:10] != now.date().isoformat():
         history.append({'date':now.isoformat(timespec='minutes'),'price':price})
     condition = 'Reconditionné' if re.search(r'reconditionn|refurbished|renewed',text,re.I) else ('Neuf' if re.search(r'\bneuf\b|\bnew\b',text,re.I) else 'À confirmer')
-    if re.search(r'\b(?:pour pièces|hors service|sans chargeur|écran cassé)\b',text,re.I): continue
-    if re.search(r'\b(?:i[579]-[2-7]\d{3}|ryzen\s*[579]\s*[12]\d{3})\b',text,re.I): continue
+    if re.search(r'\b(?:pour pièces|hors service|sans chargeur|écran cassé)\b',text,re.I):
+        reject("re.search(r'\\b(?:pour pièces|hors service|sans chargeur|écran cassé)\\b',text,re.I)"); continue
+    if re.search(r'\b(?:i[579]-[2-7]\d{3}|ryzen\s*[579]\s*[12]\d{3})\b',text,re.I):
+        reject("re.search(r'\\b(?:i[579]-[2-7]\\d{3}|ryzen\\s*[579]\\s*[12]\\d{3})\\b',text,re.I)"); continue
     by_id[identity] = dict(name=title,seller=seller,price=price,size=float(size.group(1).replace(',','.')) if size else 0,condition=condition,specs=text,verified=False,note='Piste Google Shopping : vérifier prix livré, état, CPU exact, RAM, SSD, Windows 11, IPS, AZERTY et USB. Taille 0 = inconnue.',url=url,history=history[-50:],seen=now.isoformat(),first_seen=previous.get("first_seen") or (history[0]["date"] if history else now.isoformat()),image=item.get("thumbnail") or previous.get("image", ""))
 cutoff = now-datetime.timedelta(days=3)
 old['offers'] = list(by_id.values())
