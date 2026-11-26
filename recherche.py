@@ -53,9 +53,9 @@ for item in data['shopping_results']:
     condition = 'Reconditionné' if re.search(r'reconditionn|refurbished|renewed',text,re.I) else ('Neuf' if re.search(r'\bneuf\b|\bnew\b',text,re.I) else 'À confirmer')
     if re.search(r'\b(?:pour pièces|hors service|sans chargeur|écran cassé)\b',text,re.I): continue
     if re.search(r'\b(?:i[579]-[2-7]\d{3}|ryzen\s*[579]\s*[12]\d{3})\b',text,re.I): continue
-    by_id[identity] = dict(name=title,seller=seller,price=price,size=float(size.group(1).replace(',','.')) if size else 0,condition=condition,specs=text,verified=False,note='Piste Google Shopping : vérifier prix livré, état, CPU exact, RAM, SSD, Windows 11, IPS, AZERTY et USB. Taille 0 = inconnue.',url=url,history=history[-50:],seen=now.isoformat())
+    by_id[identity] = dict(name=title,seller=seller,price=price,size=float(size.group(1).replace(',','.')) if size else 0,condition=condition,specs=text,verified=False,note='Piste Google Shopping : vérifier prix livré, état, CPU exact, RAM, SSD, Windows 11, IPS, AZERTY et USB. Taille 0 = inconnue.',url=url,history=history[-50:],seen=now.isoformat(),first_seen=previous.get("first_seen") or (history[0]["date"] if history else now.isoformat()),image=item.get("thumbnail") or previous.get("image", ""))
 cutoff = now-datetime.timedelta(days=3)
-old['offers'] = [o for o in by_id.values() if o.get('verified') or (o.get('seen') and datetime.datetime.fromisoformat(o['seen'])>=cutoff)]
+old['offers'] = list(by_id.values())
 old['updated'] = now.isoformat(timespec='minutes')
 path.write_text(json.dumps(old,ensure_ascii=False,indent=2),encoding='utf-8')
 print('Pistes enregistrées :',len(old['offers']))
