@@ -9,7 +9,11 @@ def classify(o):
     bad=[]; missing=[]
     price=o.get('price',0)
     if price>400: bad.append('Hors budget')
-    if not price: missing.append('Prix inconnu')
+    if not price:
+        missing.append('Prix inconnu')
+        prices=re.findall(r'(?<!\d)(\d{2,4})\s*€\s*(\d{2})?',t)
+        if prices and all(float(a)+float(b or 0)/100>400 for a,b in prices):
+            bad.append('Prix mentionnés supérieurs au budget')
     if not any(re.search(r'\b'+re.escape(x)+r'\b',o['name'],re.I) for x in RULES['brands']): bad.append('Marque non retenue')
     if not any(x in o.get('seller','').lower() for x in RULES['sellers']): bad.append('Vendeur non retenu')
     codes=set(re.findall(r'\b(?:I[3579][ -]?)?(\d{4,5}(?:G[147]|HS|HX|[UHY])|\d{3}[UH])\b',t.upper()))
