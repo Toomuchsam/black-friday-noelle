@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T19:43+00:00",
+  "updated": "2026-11-26T19:53+00:00",
   "offers": [
     {
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
@@ -54,10 +54,50 @@
         }
       ],
       "seen": "2026-11-26T18:05:34.249817+00:00"
+    },
+    {
+      "name": "PC Portable-16\" FHD-Intel Core i7-8750H-intel UHD Graphics 630-16 Go RAM-512 Go SSD- Windows 11 Pro- Ordinateur performant",
+      "seller": "Cdiscount",
+      "price": 424.49,
+      "size": 16.0,
+      "condition": "À confirmer",
+      "specs": "PC Portable-16\" FHD-Intel Core i7-8750H-intel UHD Graphics 630-16 Go RAM-512 Go SSD- Windows 11 Pro- Ordinateur performant ",
+      "verified": false,
+      "note": "Piste Google Shopping : vérifier prix livré, état, CPU exact, RAM, SSD, Windows 11, IPS, AZERTY et USB. Taille 0 = inconnue.",
+      "url": "https://www.google.fr/search?ibp=oshop&q=PC portable neuf Intel Core i5 i7 Core Ultra 5 16 Go SSD 512 Go Windows 11&prds=catalogid:15865554209029306860,productid:11554434182392492204,headlineOfferDocid:10203489807075826516,imageDocid:6394497454050227275,rds:CID_15865554209029306860|PROD_CID_15865554209029306860,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-26T19:53+00:00",
+          "price": 424.49
+        }
+      ],
+      "seen": "2026-11-26T19:53:23.234770+00:00",
+      "first_seen": "2026-11-26T19:53+00:00",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcRgRtCKRcgEJS4j-tMICiScqs8A4iycMBSfPXZouYAMQwr3kQT_vcy6KZVgE_BjN3A2OfD2n7yIQsP61cvTQtBVe7PbPKZPHv42zVN-CR5NSjKwpNsddGROrA"
+    },
+    {
+      "name": "Pc Portable Ultra Fin 16\" Intel Core i5 8210Y 16Go Ram 512Go Ssd Windows 11 Pro Wifi 5 Rj45 Ordinateur Gris AIMACHINEU",
+      "seller": "Cdiscount",
+      "price": 354.99,
+      "size": 16.0,
+      "condition": "À confirmer",
+      "specs": "Pc Portable Ultra Fin 16\" Intel Core i5 8210Y 16Go Ram 512Go Ssd Windows 11 Pro Wifi 5 Rj45 Ordinateur Gris AIMACHINEU ",
+      "verified": false,
+      "note": "Piste Google Shopping : vérifier prix livré, état, CPU exact, RAM, SSD, Windows 11, IPS, AZERTY et USB. Taille 0 = inconnue.",
+      "url": "https://www.google.fr/search?ibp=oshop&q=PC portable neuf Intel Core i5 i7 Core Ultra 5 16 Go SSD 512 Go Windows 11&prds=productid:7310688765551458739,headlineOfferDocid:7310688765551458739,imageDocid:7702258994977229510,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-26T19:53+00:00",
+          "price": 354.99
+        }
+      ],
+      "seen": "2026-11-26T19:53:23.234770+00:00",
+      "first_seen": "2026-11-26T19:53+00:00",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQUsFzm9S1W61yHp1DUIqYrH88A1k9y4x5htOvb7C3JYhPeKxKiQJB06Rjd4vDcwhVq4IL8VI1kCl1J-bGEjHIUxRnpwBKLznfPqaBvS-CJEZPXi44P5Rdj"
     }
   ],
   "usage": {
     "month": "2026-11",
-    "count": 2
+    "count": 3
   }
 }
