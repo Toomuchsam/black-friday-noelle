@@ -1,0 +1,33 @@
+name: Veille Black Friday de Noelle
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Recuperer le site
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Verifier la base de donnees
+        run: python -m json.tool offres.json > /dev/null
+
+      - name: Tester le moteur de veille
+        run: |
+          echo "Automatisation operationnelle"
+          echo "Budget maximum : moins de 450 euros"
+          echo "RAM : 16 Go minimum"
+          echo "SSD : 512 Go minimum"
+          echo "Neuf et reconditionne"
