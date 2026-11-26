@@ -20,40 +20,70 @@ params = dict(engine='google_shopping', q=q, google_domain='google.fr', gl='fr',
 try:
     with urllib.request.urlopen('https://serpapi.com/search.json?'+urllib.parse.urlencode(params), timeout=45) as r:
         data = json.load(r)
-except Exception:
-    print('Requête API échouée, anciennes offres conservées'); raise SystemExit(0)
+except Exception as exc:
+    print('Requête API échouée :', type(exc).__name__); raise SystemExit(1)
 if data.get('error') or 'shopping_results' not in data:
-    print('Résultats indisponibles, anciennes offres conservées'); raise SystemExit(0)
+    print('Résultats indisponibles, anciennes offres conservées'); raise SystemExit(1)
 by_id = {(o['name'],o.get('seller','')):o for o in old['offers']}
+print('Recherche :', q)
+print('Résultats reçus :', len(data['shopping_results']))
+accepted = 0
 for item in data['shopping_results']:
     title = item.get('title','')
     text = title + ' ' + str(item.get('snippet',''))
     price = item.get('extracted_price')
     url = item.get('link') or item.get('product_link')
-    if item.get('price') and '€' not in str(item['price']): continue
-    if not isinstance(price,(int,float)) or not 0 < price < 450 or not url or not url.startswith('https://'): continue
-    if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',text,re.I): continue
-    if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr[345])',text,re.I): continue
-    if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',text,re.I): continue
-    if not re.search(r'ryzen\s*[579]|(?:core\s*)?i[579]\b|core\s*(?:ultra\s*)?[579]\b',text,re.I): continue
+    if item.get('price') and '€' not in str(item['price']):
+        print('Rejet ligne', "if item.get('price') and '€' not in str(item['price'])", title)
+        continue
+    if not isinstance(price,(int,float)) or not 0 < price <= 400 or not url or not url.startswith('https://'):
+        print('Rejet ligne', "if not isinstance(price,(int,float)) or not 0 < price <= 400 or not url or not url.startswith('https://')", title)
+        continue
+    if not re.search(r'\b(?:16|24|32|48|64)\s*(?:go|gb)\b',text,re.I):
+        print('Rejet ligne', "if not re.search(r'\\b(?:16|24|32|48|64)\\s*(?:go|gb)\\b',text,re.I)", title)
+        continue
+    if re.search(r'\b(?:4|8)\s*(?:go|gb)\s*(?:de\s+)?(?:ram|ddr[345])',text,re.I):
+        print('Rejet ligne', "if re.search(r'\\b(?:4|8)\\s*(?:go|gb)\\s*(?:de\\s+)?(?:ram|ddr[345])',text,re.I)", title)
+        continue
+    if not re.search(r'\b(?:512\s*(?:go|gb)|[12]\s*(?:to|tb)|1024\s*(?:go|gb))\b',text,re.I):
+        print('Rejet ligne', "if not re.search(r'\\b(?:512\\s*(?:go|gb)|[12]\\s*(?:to|tb)|1024\\s*(?:go|gb))\\b',text,re.I)", title)
+        continue
+    if not re.search(r'ryzen\s*[579]|(?:core\s*)?i[579]\b|core\s*(?:ultra\s*)?[579]\b',text,re.I):
+        print('Rejet ligne', "if not re.search(r'ryzen\\s*[579]|(?:core\\s*)?i[579]\\b|core\\s*(?:ultra\\s*)?[579]\\b',text,re.I)", title)
+        continue
     size = re.search(r'\b(1[3456](?:[.,][0-9])?)\s*(?:pouces|inch|["″])',text,re.I)
     seller = item.get('source','Vendeur à confirmer')
-    if not any(re.search(r'\b'+re.escape(x)+r'\b', title, re.I) for x in RULES['brands']): continue
-    if not any(x in seller.lower() for x in RULES['sellers']): continue
+    if not any(re.search(r'\b'+re.escape(x)+r'\b', title, re.I) for x in RULES['brands']):
+        print('Rejet ligne', "if not any(re.search(r'\\b'+re.escape(x)+r'\\b', title, re.I) for x in RULES['brands'])", title)
+        continue
+    if not any(x in seller.lower() for x in RULES['sellers']):
+        print('Rejet ligne', "if not any(x in seller.lower() for x in RULES['sellers'])", title)
+        continue
     codes = set(re.findall(r'\b(?:i[3579][ -]?)?(\d{4}(?:G[147]|[UHY]|HS|HX)|\d{3}[UH])\b',text.upper()))
-    if len(codes)!=1 or not codes.issubset(RULES['cpu']): continue
-    if size and float(size.group(1).replace(',','.')) >= 16: continue
+    if len(codes)!=1 or not codes.issubset(RULES['cpu']):
+        print('Rejet ligne', "if len(codes)!=1 or not codes.issubset(RULES['cpu'])", title)
+        continue
+    if size and float(size.group(1).replace(',','.')) >= 15:
+        print('Rejet ligne', "if size and float(size.group(1).replace(',','.')) >= 15", title)
+        continue
     identity = (title,seller)
     previous = by_id.get(identity,{})
     history = previous.get('history',[])
     if not history or history[-1]['price'] != price or history[-1]['date'][:10] != now.date().isoformat():
         history.append({'date':now.isoformat(timespec='minutes'),'price':price})
     condition = 'Reconditionné' if re.search(r'reconditionn|refurbished|renewed',text,re.I) else ('Neuf' if re.search(r'\bneuf\b|\bnew\b',text,re.I) else 'À confirmer')
-    if re.search(r'\b(?:pour pièces|hors service|sans chargeur|écran cassé)\b',text,re.I): continue
-    if re.search(r'\b(?:i[579]-[2-7]\d{3}|ryzen\s*[579]\s*[12]\d{3})\b',text,re.I): continue
+    if re.search(r'\b(?:pour pièces|hors service|sans chargeur|écran cassé)\b',text,re.I):
+        print('Rejet ligne', "if re.search(r'\\b(?:pour pièces|hors service|sans chargeur|écran cassé)\\b',text,re.I)", title)
+        continue
+    if re.search(r'\b(?:i[579]-[2-7]\d{3}|ryzen\s*[579]\s*[12]\d{3})\b',text,re.I):
+        print('Rejet ligne', "if re.search(r'\\b(?:i[579]-[2-7]\\d{3}|ryzen\\s*[579]\\s*[12]\\d{3})\\b',text,re.I)", title)
+        continue
+    accepted += 1
     by_id[identity] = dict(name=title,seller=seller,price=price,size=float(size.group(1).replace(',','.')) if size else 0,condition=condition,specs=text,verified=False,note='Piste Google Shopping : vérifier prix livré, état, CPU exact, RAM, SSD, Windows 11, IPS, AZERTY et USB. Taille 0 = inconnue.',url=url,history=history[-50:],seen=now.isoformat(),first_seen=previous.get("first_seen") or (history[0]["date"] if history else now.isoformat()),image=item.get("thumbnail") or previous.get("image", ""))
 cutoff = now-datetime.timedelta(days=3)
 old['offers'] = list(by_id.values())
 old['updated'] = now.isoformat(timespec='minutes')
 path.write_text(json.dumps(old,ensure_ascii=False,indent=2),encoding='utf-8')
-print('Pistes enregistrées :',len(old['offers']))
+print('Résultats acceptés :', accepted)
+print('Résultats rejetés :', len(data['shopping_results'])-accepted)
+print('Pistes historiques enregistrées :',len(old['offers']))
