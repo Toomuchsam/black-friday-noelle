@@ -7,6 +7,7 @@ from pathlib import Path
 def classify(o):
     t=o['name']+' '+o.get('specs','')
     bad=[]; missing=[]
+    if o.get('manual_rejection'): bad.append(o['manual_rejection'])
     if re.search(r'\b(?:qwerty|qwertz)\b|clavier\s+(?:anglais|allemand|espagnol|italien)',t,re.I): bad.append('Clavier non AZERTY')
     price=o.get('price',0)
     if price>400: bad.append('Hors budget')
@@ -86,6 +87,7 @@ def main():
             if price and (not history or history[-1]['price']!=price or history[-1]['date'][:10]!=now.date().isoformat()):
                 history.append({'date':now.isoformat(timespec='minutes'),'price':price})
             o=dict(name=title,seller=seller,price=price,size=float(size.group(1).replace(',','.')) if size else 0,condition='Reconditionné' if re.search(r'reconditionn|refurbished',t,re.I) else 'Neuf' if re.search(r'\bneuf\b',t,re.I) else 'À confirmer',specs=t,verified=False,url=url,history=history[-50:],seen=now.isoformat(),first_seen=previous.get('first_seen',now.isoformat()),image=item.get('thumbnail') or previous.get('image',''),origin=engine,note='Prix livré, stock, garantie et état à vérifier chez le vendeur.')
+            if previous.get('manual_rejection'): o['manual_rejection']=previous['manual_rejection']
             category,reasons=classify(o)
             o.update(category=category,reasons=reasons)
             logs.append({'name':title,'category':category,'reasons':reasons})
