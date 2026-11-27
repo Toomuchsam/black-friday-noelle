@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T20:47:05.575Z",
+  "updated": "2026-11-27T16:29:37Z",
   "offers": [
     {
       "name": "HP EliteBook 845 G8 Ryzen 5 PRO 5650U 16 Go SSD 512 Go Windows 11",
@@ -20,6 +20,31 @@
       "history": [],
       "origin": "ChatGPT",
       "manual_rejection": "Clavier QWERTY signalé"
+    },
+    {
+      "name": "Dell Latitude 7430 Core i5-1235U 16 Go SSD 512 Go",
+      "seller": "Amazon.fr via Ratake",
+      "price": 389,
+      "size": 14,
+      "condition": "Reconditionné, grade inconnu",
+      "specs": "Core i5-1235U, 16 Go DDR4, SSD NVMe 512 Go, IPS Full HD, USB-A et USB-C, Windows 11 Pro selon comparateur",
+      "verified": false,
+      "category": "piste",
+      "reasons": [
+        "Fiche marchande directe introuvable",
+        "Stock, AZERTY, grade, garantie et livraison non confirmés"
+      ],
+      "note": "Prix signalé par Ratake, non confirmé chez Amazon. Ne pas acheter sans vérification.",
+      "url": "https://www.ratake.com/fr/pc-portable/dell-latitude-7430-core-i5-1235u/16gb-512gb",
+      "seen": "2026-11-27T16:29:37Z",
+      "first_seen": "2026-11-27T16:29:37Z",
+      "history": [
+        {
+          "date": "2026-11-27T16:29:37Z",
+          "price": 389
+        }
+      ],
+      "origin": "ChatGPT"
     }
   ]
 }
