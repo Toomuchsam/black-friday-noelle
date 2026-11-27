@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T21:17+00:00",
+  "updated": "2026-11-27T02:50+00:00",
   "offers": [
     {
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
@@ -167,8 +167,9 @@
       "image": "https://serpapi.com/searches/6b0899e22c2f13788783bc02/images/ZrlqgFYDLtAkpvaa_7LZA-NtqZvk2ejpT8ee369NPhA.webp",
       "origin": "google",
       "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
-      "category": "piste",
+      "category": "archive",
       "reasons": [
+        "SSD insuffisant",
         "Prix inconnu",
         "Taille écran",
         "SSD 512 Go",
@@ -281,8 +282,9 @@
       "image": "https://serpapi.com/searches/6b08a1d84814e5905c96d1d7/images/EXpG-x56d-dkeHmlOql3RR-3UDfmKKrtgsTh9SxuNyw.jpg",
       "origin": "google",
       "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
-      "category": "prometteuse",
+      "category": "archive",
       "reasons": [
+        "État incompatible",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -674,62 +676,307 @@
         "AZERTY",
         "USB"
       ]
+    },
+    {
+      "name": "Ordinateur portable - 14 pouces (35 cm) Wifi 6",
+      "seller": "Boulanger",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Ordinateur portable - 14 pouces (35 cm) Wifi 6 Ordinateur portable SAMSUNG Galaxy Book 6 14' U5 16Go 512Go A 14\" Intel Core Ultra 5 325 16 Go RAM LPDDR5x SSD 512 Go. Revendre votre appareil. Louer dès. 29 ... {'top': {'detected_extensions': {'rating': 4.4, 'reviews': 111, 'retours_sous_jours': 15}, 'extensions': ['4,4(111)', 'Retours sous 15 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.boulanger.com/c/tous-les-ordinateurs-portables/facettes_option_ordinateur_____concatener_oui~wifi206/nouvelles_facettes_ordinateurs_____taille_de_l_ecran~1420pouces20283520cm29",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable 14 pouces AMD Ryzen 5 512 Go",
+      "seller": "Carrefour",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "PC Portable 14 pouces AMD Ryzen 5 512 Go Pc Portable Lenovo Ideapad Slim 5 14agp11 14 Pouces Wuxga Oled 60 Hz 16 Go 512 Go Ssd Gris Lunaire ... Pc Portable Hp Omnibook 5 14-hm0008nfx Oled 14 Pouces 16 Go ... {} []",
+      "verified": false,
+      "url": "https://www.carrefour.fr/r/informatique-bureau/ordinateurs-portables/pc-portables+disque,512-go+processeur,amd-ryzen-5+taille,14-pouces",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable HP EliteBook 14 pouces 16 Go de RAM",
+      "seller": "Carrefour",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "PC Portable HP EliteBook 14 pouces 16 Go de RAM HP EliteBook 14 pouces 16 Go ・ 512gb Amd Ryzen™ ・ 14\" Snapdragon 16 Go Argent 512 Go 1322 ,52 € {} []",
+      "verified": false,
+      "url": "https://www.carrefour.fr/r/informatique-bureau/ordinateurs-portables/pc-portables+gamme,hp-elitebook+ram,16-go+taille,14-pouces",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable 14 pouces Intel Core i7 16 Go de RAM",
+      "seller": "Carrefour",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "PC Portable 14 pouces Intel Core i7 16 Go de RAM PC Portable 14 pouces Intel Core i7 16 Go de RAM, 16 Gb Ram 512 Gb 944 ,26 € ・ 16 Go 512 Go 14.0\" Fhd Gris 1404 ,95 €. Intel® Core™ I7 I7-1360p 2124 ・ et ... {} []",
+      "verified": false,
+      "url": "https://www.carrefour.fr/r/informatique-bureau/ordinateurs-portables/pc-portables+processeur,intel-core-i7+ram,16-go+taille,14-pouces",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Pc Portable 14 Pouces I5",
+      "seller": "Amazon",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Pc Portable 14 Pouces I5 16Go I 512Go 14\" 14'' OLED 60Hz | Intel Core Ultra 5 135H | 16 Go RAM | 512 Go SSD | AI PC | Windows 11H|. RAM 8 GB, SSD 250 Go, Intel UHD Graphics 620, ... {} []",
+      "verified": false,
+      "url": "https://www.amazon.fr/pc-portable-14-pouces-i5/s?k=pc+portable+14+pouces+i5",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordi portable 14 pouces – Trouvez le meilleur prix",
+      "seller": "leDénicheur",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Ordi portable 14 pouces – Trouvez le meilleur prix 16Go 512Go SSD RTX ・ 16 Go RAM 512 Go SSD 16 Go, Lenovo Yoga, Intel Core Ultra 5 226V Dès 799,99 € ・ 14 pouces Dès 303,99 € {} []",
+      "verified": false,
+      "url": "https://ledenicheur.fr/s/ordi-portable-14-pouces/",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur - 512 Go 14 pouces (35 cm)",
+      "seller": "Boulanger",
+      "price": 30.99,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Ordinateur - 512 Go 14 pouces (35 cm) Ordinateur portable LENOVO Yoga Slim 7 14Q8Y11 14\" OLED Snapdragon X2 Plus 16 Go RAM LPDDR5x SSD 512 Go. Revendre votre appareil. Louer dès. 30,99€/mois · Ecran ... {'top': {'detected_extensions': {'rating': 4.0, 'reviews': 17, 'retours_sous_jours': 15}, 'extensions': ['4,0(17)', 'Retours sous 15 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.boulanger.com/c/ordinateur/nouvelles_facettes_ordinateurs_____stockage~51220go/nouvelles_facettes_ordinateurs_____taille_de_l_ecran~1420pouces20283520cm29",
+      "history": [
+        {
+          "date": "2026-11-27T02:50+00:00",
+          "price": 30.99
+        }
+      ],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable 14 pouces Intel Core Ultra 7 512 Go",
+      "seller": "Carrefour",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "PC Portable 14 pouces Intel Core Ultra 7 512 Go Portable 14 pouces Intel Core Ultra 7 512 Go, 355 - RAM 16 Go SSD 512 Go ASUS 999,99€ 1 169,99€. Intel Core Ultra 256v 14\" Oled 16 Go 512 {} []",
+      "verified": false,
+      "url": "https://www.carrefour.fr/r/informatique-bureau/ordinateurs-portables/pc-portables+disque,512-go+processeur,intel-core-ultra-7+taille,14-pouces",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP 512 Go 14\" PC portables",
+      "seller": "HP",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "HP 512 Go 14\" PC portables PC portable IA nouvelle génération HP ProBook 4 G2a 14 pouces HP Wolf Pro Security Edition ... 16 Go RAM512 Go Disque SSD14\" WUXGACarte graphique Intel®. DM9H3EA# ... {} []",
+      "verified": false,
+      "url": "https://www.hp.com/fr-fr/shop/listings/laptops?cap=512-gb&scrnsizeus=14",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable 14 pouces : Lenovo ThinkPad, ASUS, HP",
+      "seller": "Powerplanet",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "PC portable 14 pouces : Lenovo ThinkPad, ASUS, HP 23 nov.. Lenovo ThinkPad T14 Gen 1 14 pouces, Core i7 10510U, SSD de 512 Go. - ... ASUS Vivobook 14 16GB/512GB 14 pouces FHD IPS Intel Core 5 120U NVMe PCIe. {} []",
+      "verified": false,
+      "url": "https://www.powerplanetonline.com/fr/pc-portables-14-pouces?srsltid=AYCX9vLQaTpyDHfUS3Dwql95PGG959SC6fsQGo1zanYGTNPdCuUgy9ZE",
+      "history": [],
+      "seen": "2026-11-27T02:50:05.204202+00:00",
+      "first_seen": "2026-11-27T02:50:05.204202+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "Performances CPU à confirmer",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "AZERTY",
+        "USB"
+      ]
     }
   ],
   "usage": {
     "month": "2026-11",
-    "count": 9
+    "count": 11
   },
-  "last_attempt": "2026-11-26T21:17:12.042906+00:00",
+  "last_attempt": "2026-11-27T02:50:05.204202+00:00",
   "diagnostics": [
     {
-      "name": "HP EliteBook 830 G8 Touchscreen Laptop Business, 13,3\" ...",
+      "engine": "google_shopping",
+      "query": "site:backmarket.fr ThinkPad EliteBook Latitude 16 Go 512 Go",
+      "error": "ValueError"
+    },
+    {
+      "name": "Ordinateur portable - 14 pouces (35 cm) Wifi 6",
       "category": "archive",
       "reasons": [
-        "Clavier non AZERTY",
+        "Marque non retenue",
         "Prix inconnu",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "HP EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11",
-      "category": "prometteuse",
-      "reasons": [
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "HP EliteBook 830 G8 13.3\" I7 16 Go Argent 512 Go",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "HP EliteBook 830 G8 avis : toujours une valeur sûre en ...",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
         "CPU exact",
-        "Taille écran",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -739,7 +986,22 @@
       ]
     },
     {
-      "name": "HP EliteBook 830 G8 13\" Reconditionné",
+      "name": "PC Portable 14 pouces AMD Ryzen 5 512 Go",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable HP EliteBook 14 pouces 16 Go de RAM",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
@@ -748,15 +1010,17 @@
         "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
+        "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "HP EliteBook 830 G8 Notebook - 13.3\" - Core i7 1165G7",
-      "category": "piste",
+      "name": "PC Portable 14 pouces Intel Core i7 16 Go de RAM",
+      "category": "archive",
       "reasons": [
+        "Marque non retenue",
         "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
+        "CPU exact",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -766,50 +1030,23 @@
       ]
     },
     {
-      "name": "Hp elitebook 830 g8 d'occasion - Ordinateurs",
-      "category": "piste",
+      "name": "Pc Portable 14 Pouces I5",
+      "category": "archive",
       "reasons": [
+        "Marque non retenue",
         "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
-        "Taille écran",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
-        "Windows 11",
         "IPS",
         "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "Hp EliteBook 830 G8 i5-1135G7 16Go 512Go SSD 13\" W11",
-      "category": "piste",
+      "name": "Ordi portable 14 pouces – Trouvez le meilleur prix",
+      "category": "archive",
       "reasons": [
-        "Prix inconnu",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Latitude 5320 - Ordinateurs portables",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "USB"
-      ]
-    },
-    {
-      "name": "Dell Latitude 5320 13,3\" i5 Gen 11 16Go RAM 256Go SSD ...",
-      "category": "piste",
-      "reasons": [
+        "Marque non retenue",
         "Prix inconnu",
         "Fiabilité vendeur à vérifier",
         "CPU exact",
@@ -822,11 +1059,11 @@
       ]
     },
     {
-      "name": "Dell Latitude 5320 - 16Go - 512Go SSD - W11",
-      "category": "piste",
+      "name": "Ordinateur - 512 Go 14 pouces (35 cm)",
+      "category": "archive",
       "reasons": [
-        "Prix inconnu",
-        "Taille écran",
+        "Marque non retenue",
+        "CPU exact",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -836,14 +1073,12 @@
       ]
     },
     {
-      "name": "Caractéristiques de l'ordinateur Latitude 5320",
-      "category": "piste",
+      "name": "PC Portable 14 pouces Intel Core Ultra 7 512 Go",
+      "category": "archive",
       "reasons": [
+        "Marque non retenue",
         "Prix inconnu",
         "CPU exact",
-        "Taille écran",
-        "RAM 16 Go",
-        "SSD 512 Go",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -853,7 +1088,7 @@
       ]
     },
     {
-      "name": "Dell Latitude 5320 13\" Reconditionné",
+      "name": "HP 512 Go 14\" PC portables",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
@@ -862,54 +1097,25 @@
         "Livraison et stock à confirmer",
         "Windows 11",
         "IPS",
-        "USB"
-      ]
-    },
-    {
-      "name": "Dell Latitude 5320 - 16Go - 512Go SSD - W11 - Cdiscount",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "CPU exact",
-        "Taille écran",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "IPS",
         "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "PC portable 13,3\" reconditionné DELL Latitude 5320 i5 8 ...",
+      "name": "PC portable 14 pouces : Lenovo ThinkPad, ASUS, HP",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
         "Fiabilité vendeur à vérifier",
+        "Performances CPU à confirmer",
         "CPU exact",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Test du Dell Latitude 5320 : Dell change le touchpad",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
-        "Taille écran",
-        "SSD 512 Go",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
         "AZERTY",
         "USB"
       ]
     }
   ],
-  "status": "ok"
+  "status": "partiel"
 }
