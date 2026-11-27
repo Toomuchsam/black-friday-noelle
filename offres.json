@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T02:50+00:00",
+  "updated": "2026-11-27T13:49+00:00",
   "offers": [
     {
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
@@ -957,55 +957,268 @@
         "AZERTY",
         "USB"
       ]
+    },
+    {
+      "name": "PC portable reconditionné pas cher - Lenovo",
+      "seller": "AfBshop FR",
+      "price": 0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "PC portable reconditionné pas cher - Lenovo Usage professionnel : un Lenovo ThinkPad, Dell Latitude ou HP ProBook, avec 16 Go de RAM et un SSD de 512 Go, assure un excellent rapport qualité/prix pour les ... {} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/PC-portables/Lenovo?srsltid=AY6E962yoB6vI5hWF_zxmVyPuCae575YGtCcws5hj0rrgGhdDhPxZW07",
+      "history": [],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portables reconditionnés pas cher - afb (Page 2)",
+      "seller": "AfBshop FR",
+      "price": 0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "PC portables reconditionnés pas cher - afb (Page 2) Achetez un ordinateur portable pas cher, testé et reconditionné dans nos ateliers en France, avec une garantie de 12 mois. {'bottom': {'extensions': ['Livraison gratuite', 'Retours sous 14 jour(s)'], 'detected_extensions': {'retours_sous_jour_s': 14}}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/PC-portables?p=2&srsltid=AY6E963qfR2YNooqBCXzcZH6ZfD8wU36l-dRy9LZRB_RwUMeHYKd-KY5",
+      "history": [],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable reconditionné pas cher - Dynabook",
+      "seller": "AfBshop FR",
+      "price": 569.0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "PC portable reconditionné pas cher - Dynabook Usage professionnel : un Lenovo ThinkPad, Dell Latitude ou HP ProBook, avec 16 Go de RAM et un SSD de 512 Go, assure un excellent rapport qualité/prix pour les ... {'bottom': {'detected_extensions': {'price': 56900, 'currency': '€', 'retours_sous_jour_s': 14}, 'extensions': ['569,00 €', 'Livraison gratuite', 'Retours sous 14 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/PC-portables/Acer/?srsltid=AY6E9631kFRTr-0AtSt-lvLNoRRk5_7Z631CzOy--gzB9zCiBqpsjSTt",
+      "history": [
+        {
+          "date": "2026-11-27T13:49+00:00",
+          "price": 569.0
+        }
+      ],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook x360 1040 G7 14,0 pouces - Intel Core i7 ...",
+      "seller": "AfBshop FR",
+      "price": 689.0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook x360 1040 G7 14,0 pouces - Intel Core i7 ... Diagonale écran 14,0 pouces, Processeur Intel Core i7‑10610U, Mémoire vive 16 Go DDR4 ; Stockage 512 Go SSD, Système Windows 11 Professionnel, Connectiques USB, ... {'bottom': {'detected_extensions': {'price': 68900, 'currency': '€'}, 'extensions': ['689,00 €', 'Épuisé']}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/hp-elitebook-x360-1040-g7/fr-34516-a?srsltid=AY6E963Bu529AqKVe44UOwkYZAKr3fGh0Ll6KiQDHMfatQLVstLoKpwG",
+      "history": [
+        {
+          "date": "2026-11-27T13:49+00:00",
+          "price": 689.0
+        }
+      ],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Stock indisponible",
+        "Performances CPU à confirmer",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY"
+      ]
+    },
+    {
+      "name": "PC portable reconditionné pas cher - Microsoft",
+      "seller": "AfBshop FR",
+      "price": 199.0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "PC portable reconditionné pas cher - Microsoft 16 Go de RAM et un SSD de 512 Go, assure un excellent rapport qualité/prix pour les tâches professionnelles. Notre sélection d'Ultrabook reconditionnés ... {'bottom': {'detected_extensions': {'price': 19900, 'currency': '€', 'retours_sous_jour_s': 14}, 'extensions': ['199,00 €', 'Livraison gratuite', 'Retours sous 14 jour(s)']}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/PC-portables/Microsoft?srsltid=AY6E960qSTZb3MX46ITwutSx3ZbqPM9fxD0gREE2I6-St2FVvxArXPHp",
+      "history": [
+        {
+          "date": "2026-11-27T13:49+00:00",
+          "price": 199.0
+        }
+      ],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC portable reconditionné pas cher - Apple",
+      "seller": "AfBshop FR",
+      "price": 0,
+      "size": 0,
+      "condition": "Reconditionné",
+      "specs": "PC portable reconditionné pas cher - Apple Usage professionnel : un Lenovo ThinkPad, Dell Latitude ou HP ProBook, avec 16 Go de RAM et un SSD de 512 Go, assure un excellent rapport qualité/prix pour les ... {'bottom': {'extensions': ['Livraison gratuite', 'Retours sous 14 jour(s)'], 'detected_extensions': {'retours_sous_jour_s': 14}}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/PC-portables/Apple?srsltid=AY6E9632BTIB5m8zVU8gZjzKHvRk3zG5qNqjzqCN4QZlZQjb3xRZtyOm",
+      "history": [],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 840 G7 14,0 pouces - Intel Core i7 10610U ...",
+      "seller": "AfBshop FR",
+      "price": 379.0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 840 G7 14,0 pouces - Intel Core i7 10610U ... HP EliteBook 840 G7 14,0 pouces - Intel Core i7 10610U @ 1,8 GHz - 16 GB DDR4 - 500 GB M.2 NvMe SSD - 1920 x 1080 FHD - Webcam - Windows 11 Professionnel. {'bottom': {'detected_extensions': {'price': 37900, 'currency': '€'}, 'extensions': ['379,00 €', 'Épuisé']}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/hp-elitebook-840-g7/fr-49736-a?srsltid=AY6E962a6-v4jxzWBoDhg--IrhLkamiWtCGAeRWhrZYEj5bmJQ1Yhq-Q",
+      "history": [
+        {
+          "date": "2026-11-27T13:49+00:00",
+          "price": 379.0
+        }
+      ],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Stock indisponible",
+        "Performances CPU à confirmer",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "DELL Latitude 5430 | 14,0 pouces - Intel Core i5 1245U ...",
+      "seller": "AfBshop FR",
+      "price": 469.0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "DELL Latitude 5430 | 14,0 pouces - Intel Core i5 1245U ... DELL Latitude 5430 14,0 pouces - Intel Core i5 1245U @ 1,6 GHz - 16 GB DDR4 - 500 GB M.2 NvMe SSD - 1920 x 1080 FHD - Webcam - Windows 11 Professionnel. {'bottom': {'detected_extensions': {'price': 46900, 'currency': '€'}, 'extensions': ['469,00 €', 'Épuisé']}} []",
+      "verified": false,
+      "url": "https://www.afbshop.fr/dell-latitude-5430/fr-46069-b?srsltid=AY6E9604I3pZYesQSDL1vhPTZ177ur-F_sO2IriOr3f24RvLb-p-bca6",
+      "history": [
+        {
+          "date": "2026-11-27T13:49+00:00",
+          "price": 469.0
+        }
+      ],
+      "seen": "2026-11-27T13:49:11.565359+00:00",
+      "first_seen": "2026-11-27T13:49:11.565359+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Stock indisponible",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     }
   ],
   "usage": {
     "month": "2026-11",
-    "count": 11
+    "count": 13
   },
-  "last_attempt": "2026-11-27T02:50:05.204202+00:00",
+  "last_attempt": "2026-11-27T13:49:11.565359+00:00",
   "diagnostics": [
     {
-      "engine": "google_shopping",
-      "query": "site:backmarket.fr ThinkPad EliteBook Latitude 16 Go 512 Go",
-      "error": "ValueError"
-    },
-    {
-      "name": "Ordinateur portable - 14 pouces (35 cm) Wifi 6",
-      "category": "archive",
-      "reasons": [
-        "Marque non retenue",
-        "Prix inconnu",
-        "CPU exact",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable 14 pouces AMD Ryzen 5 512 Go",
-      "category": "archive",
-      "reasons": [
-        "Marque non retenue",
-        "Prix inconnu",
-        "CPU exact",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable HP EliteBook 14 pouces 16 Go de RAM",
+      "name": "PC portable reconditionné pas cher - Lenovo",
       "category": "piste",
       "reasons": [
         "Prix inconnu",
         "CPU exact",
+        "Taille écran",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -1015,12 +1228,15 @@
       ]
     },
     {
-      "name": "PC Portable 14 pouces Intel Core i7 16 Go de RAM",
+      "name": "PC portables reconditionnés pas cher - afb (Page 2)",
       "category": "archive",
       "reasons": [
         "Marque non retenue",
         "Prix inconnu",
         "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
@@ -1030,91 +1246,94 @@
       ]
     },
     {
-      "name": "Pc Portable 14 Pouces I5",
+      "name": "PC portable reconditionné pas cher - Dynabook",
       "category": "archive",
       "reasons": [
-        "Marque non retenue",
-        "Prix inconnu",
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
+        "Windows 11",
         "IPS",
         "AZERTY",
         "USB"
       ]
     },
     {
-      "name": "Ordi portable 14 pouces – Trouvez le meilleur prix",
+      "name": "HP EliteBook x360 1040 G7 14,0 pouces - Intel Core i7 ...",
       "category": "archive",
       "reasons": [
-        "Marque non retenue",
-        "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
-        "CPU exact",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "Ordinateur - 512 Go 14 pouces (35 cm)",
-      "category": "archive",
-      "reasons": [
-        "Marque non retenue",
-        "CPU exact",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC Portable 14 pouces Intel Core Ultra 7 512 Go",
-      "category": "archive",
-      "reasons": [
-        "Marque non retenue",
-        "Prix inconnu",
-        "CPU exact",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "HP 512 Go 14\" PC portables",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "CPU exact",
-        "État exact à vérifier",
-        "Livraison et stock à confirmer",
-        "Windows 11",
-        "IPS",
-        "AZERTY",
-        "USB"
-      ]
-    },
-    {
-      "name": "PC portable 14 pouces : Lenovo ThinkPad, ASUS, HP",
-      "category": "piste",
-      "reasons": [
-        "Prix inconnu",
-        "Fiabilité vendeur à vérifier",
+        "Hors budget",
+        "Stock indisponible",
         "Performances CPU à confirmer",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY"
+      ]
+    },
+    {
+      "name": "PC portable reconditionné pas cher - Microsoft",
+      "category": "prometteuse",
+      "reasons": [
         "CPU exact",
+        "Taille écran",
         "État exact à vérifier",
         "Livraison et stock à confirmer",
         "Windows 11",
+        "IPS",
         "AZERTY",
         "USB"
       ]
+    },
+    {
+      "name": "PC portable reconditionné pas cher - Apple",
+      "category": "archive",
+      "reasons": [
+        "Marque non retenue",
+        "Prix inconnu",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 840 G7 14,0 pouces - Intel Core i7 10610U ...",
+      "category": "archive",
+      "reasons": [
+        "Stock indisponible",
+        "Performances CPU à confirmer",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "DELL Latitude 5430 | 14,0 pouces - Intel Core i5 1245U ...",
+      "category": "archive",
+      "reasons": [
+        "Stock indisponible",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "engine": "google_shopping",
+      "query": "site:smaaart.fr EliteBook ThinkPad 16 Go 512 Go",
+      "error": "ValueError"
     }
   ],
   "status": "partiel"
