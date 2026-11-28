@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T00:02+00:00",
+  "updated": "2026-11-28T16:51+00:00",
   "offers": [
     {
       "name": "Pc Portable 16 Pouces i7 8750H 6C/12T 16Go 512Go Ssd Uhd 630 Wifi 5 Hdmi Windows 11 Pro Ordinateur Performant Gris MICREAR",
@@ -1604,24 +1604,850 @@
         "AZERTY",
         "USB"
       ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen 2 i5-1135G7 16Go 512Go ...",
+      "seller": "Pixmania",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Lenovo ThinkPad T14s Gen 2 i5-1135G7 16Go 512Go ... Lenovo - Lenovo ThinkPad T14s Gen 2 i5-1135G7 16Go 512Go SSD 14'' W11 - AZERTY Français ; Prix de référence : 537,00€ ; Bon Etat. 468,99€ ; Très bon Etat. 528,99€. {'bottom': {'extensions': ['En stock', '6,99 € de livraison', 'Retours sous 14 jour(s)', '25€ de réduction dès 500€(Copier le code)BF25)Copié('], 'detected_extensions': {'price': 699, 'currency': '€ de livraison', 'retours_sous_jour_s': 14, '€_de_réduction_dès_€_copier_le_code_bf_copié': 25}}} []",
+      "verified": false,
+      "url": "https://www.pixmania.com/fr/fr/lenovo-thinkpad-t14s-gen-2-i51135g7-16go-512go-ssd-14-w11-azerty-francais-638468.html?srsltid=AY6E962jfUHj950nyclav-ykx9HiSNgqpjrKJgL3R9n_RROxao53TIVB",
+      "history": [],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://serpapi.com/searches/6b0b0688b917c76e806d6433/images/UQwh02kaCTHnWTRP7VGP_f0k5XoF64sayeMEcn3tF9g.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Thinkpad t14 gen2",
+      "seller": "Cdiscount",
+      "price": 0,
+      "size": 14.0,
+      "condition": "Reconditionné",
+      "specs": "Thinkpad t14 gen2 PC Portable Lenovo ThinkPad T14 - Windows 11 - 14\" F.HD - AMD® Ryzen 7 Pro - RAM 32 Go - Stockage 512 Go SSD - AZERTY. 3,8 / 5. 5 avis. Reconditionné - Etat ... {} []",
+      "verified": false,
+      "url": "https://www.cdiscount.com/informatique/r-thinkpad+t14+gen2.html",
+      "history": [],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://serpapi.com/searches/6b0b0688b917c76e806d6433/images/UQwh02kaCTHnWTRP7VGP_VWNNMau4TX3Eu940oaFlVg.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur Portable Lenovo ThinkPad T14s Gen 2 14' ...",
+      "seller": "Fnac",
+      "price": 478.99,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Ordinateur Portable Lenovo ThinkPad T14s Gen 2 14' ... Marque du processeur. INTEL ; Modèle du processeur. Intel Core i5 ; Fréquence du processeur. 2,4 GHz ; Taille de l'écran (pouces). 14,00 \" ; RAM installée. 16,00 Go. {'bottom': {'detected_extensions': {'price': 47899, 'currency': '€'}, 'extensions': ['478,99 €', 'En stock', 'Livraison gratuite']}} []",
+      "verified": false,
+      "url": "https://www.fnac.com/mp54215149/Ordinateur-Portable-Lenovo-ThinkPad-T14s-Gen-2-14-Intel-Core-i5-16-Go-RAM-Noir/w-4",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 478.99
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://serpapi.com/searches/6b0b0688b917c76e806d6433/images/UQwh02kaCTHnWTRP7VGP_djVQNNOmREME-r1sJimln4.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen2 14\" GHz",
+      "seller": "Back Market",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Lenovo ThinkPad T14s Gen2 14\" GHz Aucune information n'est disponible pour cette page. {} []",
+      "verified": false,
+      "url": "https://www.backmarket.fr/fr-fr/p/lenovo-thinkpad-t14s-gen2-14-ghz-ssd-512-go-16-go-azerty-francais/d26e415c-0377-468c-9fe5-14d4a9555337?l=12",
+      "history": [],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen2 14\" Core i5 2.6 GHz",
+      "seller": "123comparer",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Lenovo ThinkPad T14s Gen2 14\" Core i5 2.6 GHz Lenovo ThinkPad T14s Gen2 14\" Core i5 2.6 GHz - SSD 512 Go - 16 Go QWE... ... Ce produit n'est plus en vente ! Trouver un équivalent au rayon PC portables. Vous ... {} []",
+      "verified": false,
+      "url": "https://www.123comparer.fr/pc-portables/go3dkcjwgoadcc3i8rhue.html",
+      "history": [],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14 Gen 2 (Intel) Ordinateur Portable 35 ...",
+      "seller": "Amazon",
+      "price": 0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "Lenovo ThinkPad T14 Gen 2 (Intel) Ordinateur Portable 35 ... Lenovo ThinkPad T14 Gen 2 (Intel) Ordinateur Portable 35,6 cm (14\") Full HD Intel® Core i5 16 Go DDR4-SDRAM 512 Go SSD Wi-FI 6 (802.11ax) Windows 10 Pro Noir. {} []",
+      "verified": false,
+      "url": "https://www.amazon.fr/Lenovo-ThinkPad-Ordinateur-Portable-DDR4-SDRAM/dp/B09ZQFH4F1",
+      "history": [],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen 2 - i5 Gen 11 - 16 Go - SSD 2 To",
+      "seller": "LDLC",
+      "price": 873.05,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Lenovo ThinkPad T14s Gen 2 - i5 Gen 11 - 16 Go - SSD 2 To Intel Core i5-1135G7 2.4 GHz (4 cœurs), Intel Iris Xe Graphics, écran 14'' FHD 1920x1080 IPS. Connectique : 2 ports Thunderbolt 4 - 2 ports USB 3.2 Gen 1 - HDMI ... {'bottom': {'detected_extensions': {'price': 87305, 'currency': '€'}, 'extensions': ['873,05 €', 'En stock']}} []",
+      "verified": false,
+      "url": "https://www.ldlc.com/fiche/PB00762887.html",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 873.05
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "AZERTY"
+      ]
+    },
+    {
+      "name": "Test du Lenovo ThinkPad T14s G2 Intel : très bon PC ...",
+      "seller": "Notebookcheck.fr",
+      "price": 0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "Test du Lenovo ThinkPad T14s G2 Intel : très bon PC ... Notre unité de test contient un processeur Intel Core i7, un stockage SSD de 1 To, 16 Go de RAM et l'écran basse consommation Full-HD, pour un ... {'top': {'detected_extensions': {'rating': 89}, 'extensions': ['89 %', 'Critique de Benjamin Herzig']}} []",
+      "verified": false,
+      "url": "https://www.notebookcheck.biz/Test-du-Lenovo-ThinkPad-T14s-G2-Intel-tres-bon-PC-portable-pro-malgre-le-format-16-9.548781.0.html",
+      "history": [],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://serpapi.com/searches/6b0b0688b917c76e806d6433/images/UQwh02kaCTHnWTRP7VGP_dF7H3JMyIbM7RRzJ-VKQa0.jpg",
+      "origin": "google",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G8",
+      "seller": "refurbed.fr",
+      "price": 439.0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP ProBook 440 G8  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=catalogid:10001029420704340843,productid:1015371382710855904,headlineOfferDocid:12666361550131655875,imageDocid:17284617352499605288,rds:PC_2179035887156352394|PROD_PC_2179035887156352394,gpcid:2179035887156352394,mid:576462809833103044,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 439.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ2QC3uzdXlB8ESs7FSbFok61M8sFuDmNWiz5L5iLnjU2wW5YuxnjtEIHYnmkTCKvs5H1WwUPCC5M0LllPk4I5u-vCiVk5bKoxVocv51Kvm",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G8 14\" Core i7 2.8 GHz - SSD 512 Go - 16 Go QWERTY - Italien",
+      "seller": "Back Market",
+      "price": 458.0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "HP ProBook 440 G8 14\" Core i7 2.8 GHz - SSD 512 Go - 16 Go QWERTY - Italien  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=productid:14179226972466716763,headlineOfferDocid:14179226972466716763,imageDocid:4395170188294584113,rds:PC_2179035887156352394|PROD_PC_2179035887156352394,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 458.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSIcZA43dvrToRkYpLUvyz3E-4GpBI_0rjv0nzdYoyie76gAD3xSMrFbhYbpMIZFKtqYaKGeV-bzTv0YJyjmBoD6OEdDt2k0QuMk6su4WoUpmdbKg14Hohw",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Clavier non AZERTY",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G8 | i5-1135G7 | 14\" | 16 GB | 512 GB SSD | Win 11 Pro | PT",
+      "seller": "refurbed.fr",
+      "price": 459.0,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "HP ProBook 440 G8 | i5-1135G7 | 14\" | 16 GB | 512 GB SSD | Win 11 Pro | PT  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=productid:5184966369926925128,headlineOfferDocid:5184966369926925128,imageDocid:3645784028911901880,rds:PC_2179035887156352394|PROD_PC_2179035887156352394,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 459.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQWMgjFIGwLgx-WMZd8NdN_6pN8kqolJeuC_KXXCp9GRUVa2KRuZ6Pc9E6pTMXhVCW5X0-jNkUJzT5CYPItiikQSVsdQc4JvxSnkhij6sI",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 840 G8",
+      "seller": "Amazon.fr - Seller",
+      "price": 435.0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 840 G8  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=catalogid:4643938465255567512,productid:8602842527894976724,headlineOfferDocid:4480154287643297834,imageDocid:7828424197374168920,rds:PC_950888350202160980|PROD_PC_950888350202160980,gpcid:950888350202160980,mid:576462797031773360,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 435.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTN6wwsq2djt6R7ufPje2GIPRM2G2utT_jqod9t_c4aV3OU2GZUMmR_5uiSPFBu4EsNI5cgr85f3xYBbFAmaPf7GgJnKzOjVzmkbCopbASq",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 450 G8",
+      "seller": "Back Market",
+      "price": 570.0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP ProBook 450 G8  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=catalogid:17041882330331636707,productid:3365362752203122105,headlineOfferDocid:18424441788167057344,imageDocid:17133394315452178600,rds:PC_12860983765815574337|PROD_PC_12860983765815574337,gpcid:12860983765815574337,mid:576462803942203508,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 570.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSl3gONJlH2dBpIsDTOIrgOkjqhvGo7fSLkGVFdSp4MRGXYpO_1tONQ765vmGbgsPEm5qT8JnT5YgJr6IxcZcT9DRP2FaIFGDlVLokOg0iJ-PUiGIVlwTdZBQ",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable HP 14 pouces EliteBook 840 G8 RAM 16 Go stockage 512 Go - PC portable",
+      "seller": "Fnac",
+      "price": 483.99,
+      "size": 14.0,
+      "condition": "À confirmer",
+      "specs": "PC Portable HP 14 pouces EliteBook 840 G8 RAM 16 Go stockage 512 Go - PC portable  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=productid:1183017795275390983,headlineOfferDocid:1183017795275390983,imageDocid:15554051176248984230,rds:PC_950888350202160980|PROD_PC_950888350202160980,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 483.99
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTixghN30gSMllSLj-fp6f_5XBI1qQO5XYztpy7mfIXHgjBMqZWK29CuUZz6-BC8Mo47mvJ_CJID_zRbdfpXx-Iw-Vpu_XJSYAT_bEs00QLXTqMKfzTyQ30UA",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G9",
+      "seller": "Europages FR",
+      "price": 4600.0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP ProBook 440 G9  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=catalogid:9170196363445113282,productid:7482303427242101319,headlineOfferDocid:15944204997468818071,imageDocid:6677271343630282396,rds:PC_4675469886520605422|PROD_PC_4675469886520605422,gpcid:8020527243960266330,mid:576462821472049036,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 4600.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgxN09BStQoSldb7wtKQ7LQWsmHimfzkYOOCTVy2V6w4TWbfC_Br3D9jOtQS-wAxyRvVXGwvLS4A1QOmfPRpmVueex5JSJfK_NRWgylK_ez7cV5pKmiLTy",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP 13,3\" Touch Full HD",
+      "seller": "furbify.fr",
+      "price": 828.22,
+      "size": 13.3,
+      "condition": "À confirmer",
+      "specs": "HP 13,3\" Touch Full HD  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=catalogid:9169349910062945096,productid:8131903318196211823,headlineOfferDocid:8252354777926199706,imageDocid:5207895855616113531,rds:PC_2970281780136284842|PROD_PC_2970281780136284842,gpcid:11467718144947020961,mid:576462918865531022,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 828.22
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQEADMqcZVvi7aaMclQna_m78WvtOCQqa0IKMBR7EdqoTW_jjY4rWSTdKQTLhtMH8CE0maBrjosazHxQWYN8kd8X_abZIqlceo0NWNPlc5b7oHnl-VKlAK3xQ",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 440 G8 – Core i5 11ème gen – 16 Go – 256 Go SSD – Full HD – Windows 11 Pro – Garantie 1 an – Retrait Paris 10",
+      "seller": "Leboncoin",
+      "price": 279.0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP EliteBook 440 G8 – Core i5 11ème gen – 16 Go – 256 Go SSD – Full HD – Windows 11 Pro – Garantie 1 an – Retrait Paris 10  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=productid:3530071601698841726,headlineOfferDocid:3530071601698841726,imageDocid:3759403238759967554,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 279.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSA0aF5GJBnVuvOGVLWPo0UfDygZeCr8XCsWvISxk6f6OZ2cV4nK3kFo2QxWJItxb7P44xB3CVgFW8J3den06doX0N-0MR0lpG4YVcZgqBPhqJtUZ8pUNaS6A",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "SSD insuffisant",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook x360 435 G8",
+      "seller": "Dero.fr",
+      "price": 842.0,
+      "size": 0,
+      "condition": "À confirmer",
+      "specs": "HP ProBook x360 435 G8  {} []",
+      "verified": false,
+      "url": "https://www.google.fr/search?ibp=oshop&q=HP ProBook 440 G8 G9 16 Go 512 Go AZERTY&prds=catalogid:4226372536438783350,productid:15054783649580366319,headlineOfferDocid:17645998214281874290,imageDocid:12167677635620516094,rds:PC_2970281780136284842|PROD_PC_2970281780136284842,gpcid:2970281780136284842,mid:576462781653927932,pvt:hg&hl=fr&gl=fr&udm=28",
+      "history": [
+        {
+          "date": "2026-11-28T16:51+00:00",
+          "price": 842.0
+        }
+      ],
+      "seen": "2026-11-28T16:51:19.982271+00:00",
+      "first_seen": "2026-11-28T16:51:19.982271+00:00",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcRKJ_JWj8S_g5wGRRQrvTxSTRdV0vzkDWVxJRvkeCB3Z3tW22a6O3RVkuStl_3OGZ8N7swEMZ6cKWZwrNNBIDORd52Mf97AAY70_OPRsGPAMaOd_NGuHAIBJA",
+      "origin": "google_shopping",
+      "note": "Prix livré, stock, garantie et état à vérifier chez le vendeur.",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     }
   ],
   "usage": {
     "month": "2026-11",
-    "count": 17
+    "count": 19
   },
-  "last_attempt": "2026-11-28T07:42:36.129442+00:00",
+  "last_attempt": "2026-11-28T16:51:19.982271+00:00",
   "diagnostics": [
     {
-      "engine": "google_shopping",
-      "query": "site:boulanger.com PC portable 14 Ryzen 5 16 Go 512 Go",
-      "error": "ValueError"
+      "name": "Lenovo ThinkPad T14s Gen 2 i5-1135G7 16Go 512Go ...",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "USB"
+      ]
     },
     {
-      "engine": "google",
-      "query": "PC portable 14 pouces 16 Go 512 Go AZERTY Windows 11 moins de 500 euros",
-      "error": "TimeoutError"
+      "name": "Thinkpad t14 gen2",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "USB"
+      ]
+    },
+    {
+      "name": "Ordinateur Portable Lenovo ThinkPad T14s Gen 2 14' ...",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen2 14\" GHz",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen2 14\" Core i5 2.6 GHz",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14 Gen 2 (Intel) Ordinateur Portable 35 ...",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "Lenovo ThinkPad T14s Gen 2 - i5 Gen 11 - 16 Go - SSD 2 To",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "AZERTY"
+      ]
+    },
+    {
+      "name": "Test du Lenovo ThinkPad T14s G2 Intel : très bon PC ...",
+      "category": "piste",
+      "reasons": [
+        "Prix inconnu",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G8",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G8 14\" Core i7 2.8 GHz - SSD 512 Go - 16 Go QWERTY - Italien",
+      "category": "archive",
+      "reasons": [
+        "Clavier non AZERTY",
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G8 | i5-1135G7 | 14\" | 16 GB | 512 GB SSD | Win 11 Pro | PT",
+      "category": "prometteuse",
+      "reasons": [
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 840 G8",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 450 G8",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "PC Portable HP 14 pouces EliteBook 840 G8 RAM 16 Go stockage 512 Go - PC portable",
+      "category": "prometteuse",
+      "reasons": [
+        "CPU exact",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook 440 G9",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP 13,3\" Touch Full HD",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP EliteBook 440 G8 – Core i5 11ème gen – 16 Go – 256 Go SSD – Full HD – Windows 11 Pro – Garantie 1 an – Retrait Paris 10",
+      "category": "archive",
+      "reasons": [
+        "SSD insuffisant",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
+    },
+    {
+      "name": "HP ProBook x360 435 G8",
+      "category": "archive",
+      "reasons": [
+        "Hors budget",
+        "Fiabilité vendeur à vérifier",
+        "CPU exact",
+        "Taille écran",
+        "RAM 16 Go",
+        "SSD 512 Go",
+        "État exact à vérifier",
+        "Livraison et stock à confirmer",
+        "Windows 11",
+        "IPS",
+        "AZERTY",
+        "USB"
+      ]
     }
   ],
-  "status": "erreur"
+  "status": "ok"
 }
