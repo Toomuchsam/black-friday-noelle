@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27T16:29:37Z",
+  "updated": "2026-11-28T12:15:39Z",
   "offers": [
     {
       "name": "HP EliteBook 845 G8 Ryzen 5 PRO 5650U 16 Go SSD 512 Go Windows 11",
@@ -44,6 +44,26 @@
           "price": 389
         }
       ],
+      "origin": "ChatGPT"
+    },
+    {
+      "name": "HP EliteBook 845 G8",
+      "seller": "Refabz",
+      "price": null,
+      "size": 14,
+      "condition": "Grade A proposé, disponibilité de la combinaison non confirmée",
+      "specs": "Options Ryzen 5 PRO 5650U, 16 Go, SSD 512 Go, AZERTY français",
+      "verified": false,
+      "category": "prometteuse",
+      "reasons": [
+        "Prix affiché de 316,48 € pour le grade C, pas pour la configuration cible",
+        "Stock, prix du grade A, IPS et Windows 11 à confirmer"
+      ],
+      "note": "Fiche marchande directe indexée le 28 novembre. Livraison offerte, garantie commerciale 12 mois. Ne pas assimiler le prix de base au prix cible.",
+      "url": "https://www.refabz.com/pc-portable/16065-elitebook-845-g8-azerty-francais-3667428088163.html",
+      "seen": "2026-11-28T12:15:39Z",
+      "first_seen": "2026-11-28T12:15:39Z",
+      "history": [],
       "origin": "ChatGPT"
     }
   ]
